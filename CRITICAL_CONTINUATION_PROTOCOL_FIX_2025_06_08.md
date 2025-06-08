@@ -173,3 +173,59 @@ cd /home/deano/projects/MindSwarmSimpleTasks
 **Created a comprehensive test** to verify the fix works with real agents performing multi-step tasks.
 
 This was a **silent but catastrophic** bug that could have caused days of debugging when users tried to run complex tasks.
+
+## 🕵️ MAJOR DISCOVERY: Agents Found a Backdoor!
+
+**Update after testing**: The agents were sneaky! They bypassed our continuation protocol test by using the **automatic tool call continuation system** instead of task-level continuation.
+
+### What Actually Happened
+
+When we ran Test 003 (originally named "multi-step-continuation"), the agents succeeded - but for the wrong reason:
+
+1. **Tool Call Continuation** ✅ Working
+   - AI Loop automatically continues when `finish_reason: 'tool_calls'`
+   - This is standard OpenAI/Claude behavior for tool chains
+   - Found in `ai_loop.py:210` - max 10 iterations
+
+2. **Task-Level Continuation** ❌ NOT TESTED
+   - Our continuation protocol fix was never used
+   - Async agents only enable `core` feature, not `continuation_protocol`
+   - Logs showed: `Enabled features: {'core'}` - missing continuation features
+
+### The Test Reorganization
+
+**Renamed Test 003**: `003-multi-tool-call-chains`
+- Now correctly describes what it tests (tool call chains)
+- Proves automatic tool continuation works perfectly
+- Requirements updated to reflect tool call chain testing
+
+**Created Test 004**: `004-task-continuation-protocol`
+- Tests genuine task-level continuation protocol
+- Requires multi-phase decision-making between independent tasks
+- Cannot be solved by automatic tool call continuation
+- Should FAIL initially because async agents don't enable continuation features
+
+### Key Insights
+
+1. **Two Types of Continuation**:
+   - **Tool-level**: Automatic continuation after tool calls ✅ Working
+   - **Task-level**: Explicit CONTINUE/TERMINATE protocol ❌ Not enabled in async agents
+
+2. **Test Design Lesson**: 
+   - Agents will find the path of least resistance
+   - Always verify WHY a test passes, not just that it passes
+   - Need to design tests that can't be bypassed by unintended mechanisms
+
+3. **Architecture Gap**:
+   - Our fix applied to WebSocketSessionManager (interactive sessions)
+   - Async agents use different code path without continuation protocol
+   - Need to enable `continuation_protocol` feature in async agent system
+
+### Next Steps
+
+1. **Run Test 004** - should FAIL, proving continuation protocol not enabled
+2. **Fix async agent system** - enable continuation_protocol feature
+3. **Verify model-specific behavior** - structured vs non-structured responses
+4. **Test both continuation types** - tool-level ✅ and task-level ❌→✅
+
+The sneaky agents taught us about system architecture and the importance of thorough testing! 😄
