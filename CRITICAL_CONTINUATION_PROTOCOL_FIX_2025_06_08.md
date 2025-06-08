@@ -119,11 +119,57 @@ Added comprehensive tests to prevent regression. Any future prompt system change
 2. Run the integration tests to verify end-to-end functionality  
 3. Verify both structured and non-structured model paths work
 
+## New Test Created
+
+Created **Test 003: Multi-Step Continuation Protocol Test** to verify the fix works in practice:
+
+**Location**: `/home/deano/projects/MindSwarmSimpleTasks/tests/003-multi-step-continuation/`
+
+**Test Structure**:
+```
+003-multi-step-continuation/
+├── task.md              # Multi-step task description
+├── task.yaml            # Task configuration 
+├── test.yaml            # Test metadata
+├── agents.yaml          # Agent configurations to test
+├── test.sh              # Test execution script
+└── evaluate.sh          # Custom evaluation script
+```
+
+**Test Task**: Multi-step quote processing requiring:
+1. **Write Quote**: Create `quotes.txt` with Arthur C. Clarke's quote
+2. **Translate**: Translate to French and append to same file
+3. **Add Attribution**: Append attribution line
+
+**Models Tested**:
+- **GPT-4o** (`assistant-gpt4o.yaml`) - Structured output model
+- **Claude-2** (`assistant-claude2.yaml`) - Non-structured model
+
+**Why This Tests Continuation**:
+- Requires multiple sequential steps
+- Agent must continue between steps using continuation protocol
+- Tests both structured and non-structured protocol paths
+- Verifies the critical fix works in practice
+
+**Success Criteria**:
+- File `quotes.txt` exists with exactly 3 lines
+- English quote present and correct
+- French translation present  
+- Attribution to Arthur C. Clarke present
+
+**Running the Test**:
+```bash
+cd /home/deano/projects/MindSwarmSimpleTasks
+./tests/003-multi-step-continuation/test.sh
+```
+
 ## Summary
 
 **Fixed a critical bug that would have completely broken complex AI tasks.** The continuation protocol is now correctly selected based on model capabilities, ensuring that:
 - Structured output models get structured continuation instructions
 - Non-structured models get JSON-in-content continuation instructions
 - Complex multi-step AI workflows will function correctly
+
+**Created a comprehensive test** to verify the fix works with real agents performing multi-step tasks.
 
 This was a **silent but catastrophic** bug that could have caused days of debugging when users tried to run complex tasks.
