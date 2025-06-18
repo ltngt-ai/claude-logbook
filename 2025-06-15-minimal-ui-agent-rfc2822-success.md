@@ -134,3 +134,7 @@ With this foundation, we can:
 4. Create specialized UI agents for different use cases
 
 The minimal UI agent proves that the agent-first architecture is not just viable but superior to traditional API-based approaches. The ability to evolve the protocol without changing code, just by updating agent prompts and mail handling, opens up incredible possibilities for rapid development and experimentation.
+
+## Update
+
+Successfully pushed the frontend changes to mindswarm-ui-private. The frontend now fully implements the RFC2822 mail-based initialization flow, completing the agent-first architecture end-to-end. The entire system - from frontend through WebSocket transport to backend agents - now communicates exclusively through mail messages, proving the viability and elegance of this approach.
