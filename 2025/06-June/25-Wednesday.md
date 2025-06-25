@@ -50,3 +50,41 @@ This allows per-agent provider selection and fallback chains.
 
 ### Next Steps
 Starting implementation with the Provider Factory Pattern (#287) as it's the foundation for other features.
+
+## Implementation Progress
+
+### Completed Components
+
+1. **Provider Factory Pattern (#287)** ✅
+   - Created AIProviderFactory for managing multiple AI service providers
+   - Updated AIConfig to include provider field and provider-specific settings
+   - Refactored AILoopFactory to use the new provider factory
+   - Added provider/model info to agent narrative logs
+   - All tests passing
+
+2. **Dynamic Model Registry (#282)** ✅
+   - Created ModelRegistry for runtime model capability discovery
+   - Implemented model info fetching from providers with caching (1-hour TTL)
+   - Extended model_capabilities.py with new helper functions:
+     - get_model_context_length()
+     - get_model_pricing()
+     - supports_reasoning()
+     - supports_vision()
+   - Integrated with existing get_model_capabilities() function
+   - Comprehensive test coverage
+   - Note: "No provider registered" warnings are expected until providers register themselves
+
+### Provider/Model in Narrative Logs
+Added provider and model information to agent narrative logs per Deano's request:
+```
+🤖 MODEL CONFIGURATION:
+──────────────────────────────────────────────────
+Provider: openrouter
+Model: openai/gpt-4.1-mini
+Temperature: 0.7
+Max Tokens: 1000
+──────────────────────────────────────────────────
+```
+
+### Next Implementation Target
+Moving on to Token Usage and Cost Tracking (#283) to leverage the pricing information from the model registry.
