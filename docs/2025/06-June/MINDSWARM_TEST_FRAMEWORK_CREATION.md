@@ -1,9 +1,9 @@
-# MindSwarm Test Framework Creation
+# Mind-Swarm Test Framework Creation
 
 Date: 2025-06-08
 
 ## Summary
-Created MindSwarmSimpleTasks repository with a comprehensive testing framework for systematically evaluating and improving MindSwarm's task execution capabilities.
+Created Mind-SwarmSimpleTasks repository with a comprehensive testing framework for systematically evaluating and improving Mind-Swarm's task execution capabilities.
 
 ## Key Design Decisions
 
@@ -14,7 +14,7 @@ Created MindSwarmSimpleTasks repository with a comprehensive testing framework f
 
 ### 2. Standardized Test Protocol
 1. Clean environment setup (removes existing test directories)
-2. Create MindSwarm project via CLI
+2. Create Mind-Swarm project via CLI
 3. Spawn configured agent(s)
 4. Execute task
 5. Collect outputs
@@ -23,7 +23,7 @@ Created MindSwarmSimpleTasks repository with a comprehensive testing framework f
 
 ### 3. Directory Structure
 ```
-MindSwarmSimpleTasks/
+Mind-SwarmSimpleTasks/
 ├── tests/              # Individual test cases
 │   └── 001-file-creation/
 │       ├── test.sh     # Test execution script
@@ -54,7 +54,7 @@ MindSwarmSimpleTasks/
 ### Test Harness Features
 - Color-coded logging (info, success, error, warning)
 - Timing functions for performance metrics
-- Project/agent creation via MindSwarm CLI
+- Project/agent creation via Mind-Swarm CLI
 - Results collection and comparison
 - YAML-based metrics output
 
@@ -84,13 +84,13 @@ task:
 ```
 
 ## Current Limitations
-1. Task execution not fully implemented in MindSwarm yet
+1. Task execution not fully implemented in Mind-Swarm yet
 2. Using placeholder for actual task execution
 3. Metrics collection is basic (mainly timing)
 4. Agent communication/coordination not tested yet
 
 ## Next Steps
-1. Run baseline test with current MindSwarm implementation
+1. Run baseline test with current Mind-Swarm implementation
 2. Implement proper task execution monitoring
 3. Add more test cases:
    - Code analysis
@@ -107,4 +107,4 @@ task:
 4. **Extensible**: Easy to add new tests and agents
 5. **Debuggable**: Comprehensive logging at each step
 
-This framework provides the foundation for data-driven improvement of MindSwarm's capabilities.
+This framework provides the foundation for data-driven improvement of Mind-Swarm's capabilities.

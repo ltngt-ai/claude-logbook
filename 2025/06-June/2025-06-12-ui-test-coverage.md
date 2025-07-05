@@ -41,7 +41,7 @@ The implementation revealed several key architectural strengths:
 1. **Clean Abstraction**: The UI Agent client provides a clean abstraction layer over WebSocket communication, hiding complexity from UI components
 2. **Reliable Communication**: UUID correlation ensures reliable request-response matching even with concurrent operations
 3. **Agent-First Protocol**: All operations now go through the agent-first protocol - no more direct API calls
-4. **Mail-Based Architecture**: Everything is mail-based, aligning with the core MindSwarm principles
+4. **Mail-Based Architecture**: Everything is mail-based, aligning with the core Mind-Swarm principles
 
 ## Technical Details
 
@@ -97,7 +97,7 @@ All test files are located in:
 - Coverage includes both unit tests and integration scenarios
 - Mock implementations provide realistic behavior for offline testing
 
-This milestone provides a solid foundation for building the modern, agent-first UI that aligns with MindSwarm's core principles.
+This milestone provides a solid foundation for building the modern, agent-first UI that aligns with Mind-Swarm's core principles.
 
 ---
 

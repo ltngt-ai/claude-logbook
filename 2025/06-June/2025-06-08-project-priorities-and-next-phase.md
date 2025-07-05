@@ -1,4 +1,4 @@
-# MindSwarm Project Priorities and Next Phase - 2025-06-08
+# Mind-Swarm Project Priorities and Next Phase - 2025-06-08
 
 ## Current State Assessment
 
@@ -41,7 +41,7 @@
 ### Phase 1: Foundation Fixes (1-2 weeks)
 1. Fix agent session scoping for project isolation
 2. Fix terminate command for proper cleanup
-3. Complete AIWhisperer→MindSwarm migration throughout codebase
+3. Complete AIWhisperer→Mind-Swarm migration throughout codebase
 
 ### Phase 2: Production + Features (Next 1-2 months)
 **Production Readiness Track:**

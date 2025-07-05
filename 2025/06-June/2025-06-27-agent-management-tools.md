@@ -6,7 +6,7 @@ Successfully migrated 5 agent management tools to the new YAML/Python structure 
 ## Tools Migrated
 
 ### 1. create_agent
-- **Purpose**: Create new agents within the MindSwarm system
+- **Purpose**: Create new agents within the Mind-Swarm system
 - **Key Features**:
   - Auto-generates instance IDs if not provided
   - Supports starter packs for initial knowledge

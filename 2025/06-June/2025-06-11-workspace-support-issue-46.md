@@ -1,7 +1,7 @@
 # 2025-06-11: Workspace Support in CLI (Issue #46)
 
 ## Summary
-Added workspace support to the MindSwarm CLI to fix issue #46. Previously, test harness had to use direct API calls because the CLI didn't support workspaces.
+Added workspace support to the Mind-Swarm CLI to fix issue #46. Previously, test harness had to use direct API calls because the CLI didn't support workspaces.
 
 ## Changes Made
 
@@ -27,7 +27,7 @@ Added workspace support to the MindSwarm CLI to fix issue #46. Previously, test 
 - Updated local git remote URLs
 
 ## Test Harness Can Now Use CLI
-With these changes, MindSwarmSimpleTasks can now use the CLI instead of direct API calls:
+With these changes, Mind-SwarmSimpleTasks can now use the CLI instead of direct API calls:
 
 ```bash
 # Create project with CLI (uses active workspace)
@@ -38,5 +38,5 @@ mindswarm project create --name "Test Project" --description "Test" --workspace 
 ```
 
 ## Next Steps
-- Update MindSwarmSimpleTasks test harness to use CLI commands instead of API calls
+- Update Mind-SwarmSimpleTasks test harness to use CLI commands instead of API calls
 - Consider creating mindswarm_simple_tasks repo with snake_case naming

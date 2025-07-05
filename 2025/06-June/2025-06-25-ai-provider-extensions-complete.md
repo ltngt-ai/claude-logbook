@@ -34,7 +34,7 @@ Completed the AI Provider Extensions feature (#285) by implementing all remainin
 ### 4. Dynamic Model Discovery (#291)
 - Implemented model registry integration with providers
 - Added tools for listing available models
-- Created YAML tool definitions following MindSwarm pattern
+- Created YAML tool definitions following Mind-Swarm pattern
 - Fixed recursive dependency issues in model registry
 
 ## Technical Challenges Resolved
@@ -75,7 +75,7 @@ Completed the AI Provider Extensions feature (#285) by implementing all remainin
 - Flexible pricing format support
 
 ### 4. Tool Implementation
-- Followed MindSwarm's YAML + Python pattern
+- Followed Mind-Swarm's YAML + Python pattern
 - Used BaseTool with YamlToolMixin
 - Kept tools simple and focused
 
@@ -127,4 +127,4 @@ Completed the AI Provider Extensions feature (#285) by implementing all remainin
 - Used proper error handling and logging
 - Updated all relevant documentation
 
-This completes the AI Provider Extensions feature, providing a solid foundation for future AI provider integrations and enhanced configuration management in MindSwarm.
+This completes the AI Provider Extensions feature, providing a solid foundation for future AI provider integrations and enhanced configuration management in Mind-Swarm.

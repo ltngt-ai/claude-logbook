@@ -1,4 +1,4 @@
-# MindSwarm Hierarchical Architecture Analysis
+# Mind-Swarm Hierarchical Architecture Analysis
 
 Date: 2025-01-07
 

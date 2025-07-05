@@ -2,12 +2,12 @@
 Date: 2025-01-07
 
 ## Overview
-This logbook entry documents the implementation of the agent template vs instance pattern in MindSwarm, the subsequent test regressions that occurred, and the fixes that were applied to restore all tests to passing.
+This logbook entry documents the implementation of the agent template vs instance pattern in Mind-Swarm, the subsequent test regressions that occurred, and the fixes that were applied to restore all tests to passing.
 
 ## Agent Template vs Instance Pattern
 
 ### Background
-The MindSwarm architecture was enhanced to support a clear separation between agent templates (types) and agent instances. This allows for:
+The Mind-Swarm architecture was enhanced to support a clear separation between agent templates (types) and agent instances. This allows for:
 - Multiple instances of the same agent type (e.g., multiple research agents)
 - Clear identity management with FQN (Fully Qualified Names)
 - Better resource management and lifecycle control
@@ -122,8 +122,8 @@ with tempfile.TemporaryDirectory() as temp_dir:
 - **Phase 5 Complete**: Python MVP with AI integration
 
 ### Recent Commits
-- `16df50e` - Replace broken AIWhisperer main.py with proper MindSwarm server
-- `7f9b490` - Add demo server for MindSwarm CLI testing
+- `16df50e` - Replace broken AIWhisperer main.py with proper Mind-Swarm server
+- `7f9b490` - Add demo server for Mind-Swarm CLI testing
 - `64274e4` - Complete Python MVP with real AI integration
 - `1179911` - Implement agent instance management and lifecycle
 - `8db6efe` - Implement hierarchical context system

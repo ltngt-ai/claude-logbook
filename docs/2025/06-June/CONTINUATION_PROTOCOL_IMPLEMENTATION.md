@@ -3,7 +3,7 @@
 ## Date: 2025-06-08
 
 ### Overview
-Implemented task-level continuation protocol handling in MindSwarm to support multi-phase task execution with CONTINUE/TERMINATE signals.
+Implemented task-level continuation protocol handling in Mind-Swarm to support multi-phase task execution with CONTINUE/TERMINATE signals.
 
 ### Problem
 Agents were using the continuation protocol correctly in their responses but the system wasn't processing these signals to continue task execution. This resulted in agents completing only the first phase of multi-phase tasks.

@@ -12,7 +12,7 @@ Successfully implemented and validated the new agent-first architecture with exp
 - **Fixed Server Event Loop**: Proper async initialization for agent spawning
 
 ### ✅ Test Framework Validation  
-- **Updated MindSwarmSimpleTasks**: Tests now validate agent-first model
+- **Updated Mind-SwarmSimpleTasks**: Tests now validate agent-first model
 - **Fixed Project Creation**: Workspace integration with proper API calls
 - **Test 004 Transformation**: Continuation protocol → Natural workflow test
 - **Test 003 Clarification**: Focus on tool call chains vs continuation
@@ -125,7 +125,7 @@ Key evidence:
 The core architectural vision is now implemented and validated. The remaining work is operational (fixing CLI compatibility) rather than architectural.
 
 ## Session Impact
-This session represents a **major milestone** in the MindSwarm evolution:
+This session represents a **major milestone** in the Mind-Swarm evolution:
 - ✅ Proof of concept → ✅ Working implementation
 - ✅ Traditional chat model → ✅ Agent-first model  
 - ✅ Implicit communication → ✅ Explicit mail system

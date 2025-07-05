@@ -2,7 +2,7 @@
 **Date**: June 8, 2025
 
 ## Context
-While setting up tests, we encountered confusion about agent types, roles, templates, and IDs. This document clarifies the terminology used throughout MindSwarm.
+While setting up tests, we encountered confusion about agent types, roles, templates, and IDs. This document clarifies the terminology used throughout Mind-Swarm.
 
 ## Terminology Mapping
 
@@ -32,7 +32,7 @@ While setting up tests, we encountered confusion about agent types, roles, templ
 
 ## Usage Patterns
 
-### MindSwarm Pattern (Recommended)
+### Mind-Swarm Pattern (Recommended)
 ```bash
 mindswarm agent spawn --agent-type research --instance-id roger
 ```

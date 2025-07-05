@@ -1,7 +1,7 @@
 # 2025-01-10 Agent Validation and Terminology Fixes
 
 ## Summary
-Fixed agent type validation errors and standardized terminology across MindSwarm. The backend now provides helpful error messages when invalid agent types are used, showing available types.
+Fixed agent type validation errors and standardized terminology across Mind-Swarm. The backend now provides helpful error messages when invalid agent types are used, showing available types.
 
 ## Key Accomplishments
 
@@ -11,7 +11,7 @@ Fixed agent type validation errors and standardized terminology across MindSwarm
 - Server now shows: "No agent template found for type 'a'. Available types: assistant, project_manager, research, software_engineer, task_manager, watcher"
 
 ### 2. Standardized Agent Type Names
-- Updated all MindSwarmSimpleTasks test configurations from single-letter types to full names:
+- Updated all Mind-SwarmSimpleTasks test configurations from single-letter types to full names:
   - 'a' → 'assistant'
   - 'p' → 'project_manager'
   - 't' → 'task_manager'
@@ -78,7 +78,7 @@ Fixed agent type validation errors and standardized terminology across MindSwarm
 - Create API endpoint for user to check mailbox and retrieve mail
 - Remove channel system completely
 - Ensure both structured and unstructured API responses work
-- Update MindSwarmSimpleTasks tests to validate new agent-first model
+- Update Mind-SwarmSimpleTasks tests to validate new agent-first model
 - Replace all 'spawn' terminology with 'create' across ALL repositories
 - Debug why agents are not being created in tests
 - Add proper validation error messages for invalid agent types

@@ -1,4 +1,4 @@
-# 🎉 MindSwarm Tool Migration COMPLETE! - June 27, 2025
+# 🎉 Mind-Swarm Tool Migration COMPLETE! - June 27, 2025
 
 ## Major Achievement: 77 Tools Successfully Migrated!
 
@@ -93,4 +93,4 @@ With all tools migrated, the runtime is ready for:
 - **Code Lines**: ~15,000+ lines of implementation code
 - **Commits**: 8 major commits tracking progress
 
-This represents a complete transformation of the MindSwarm architecture from a monolithic core to a clean engine/runtime separation, enabling hot-reloadable, agent-first tool ecosystem!
+This represents a complete transformation of the Mind-Swarm architecture from a monolithic core to a clean engine/runtime separation, enabling hot-reloadable, agent-first tool ecosystem!

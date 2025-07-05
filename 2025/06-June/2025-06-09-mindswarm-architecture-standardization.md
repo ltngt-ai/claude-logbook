@@ -1,15 +1,15 @@
-# MindSwarm Architecture Standardization
+# Mind-Swarm Architecture Standardization
 
 ## Date: 2025-06-09
 
 ### Summary
-Fixed all Git tools to use correct MindSwarm architecture and standardized tool implementation pattern.
+Fixed all Git tools to use correct Mind-Swarm architecture and standardized tool implementation pattern.
 
 ### Key Achievements
 
 1. **Fixed Git Tools Architecture**
    - All 10 Git tools now inherit from `BaseTool` instead of non-existent `Tool` class
-   - Corrected imports to use MindSwarm modules
+   - Corrected imports to use Mind-Swarm modules
    - Standardized return format (dictionaries with status/message)
 
 2. **Improved Tool Development Pattern**
@@ -78,5 +78,5 @@ class GitAddTool(BaseTool):
 
 ### Next Steps
 1. Update remaining Git tool tests to match new pattern
-2. Apply this pattern to other tools in MindSwarm
+2. Apply this pattern to other tools in Mind-Swarm
 3. Continue with GitHub integration

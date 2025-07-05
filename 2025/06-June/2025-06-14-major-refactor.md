@@ -1,8 +1,8 @@
-# 2025-06-14: Major MindSwarm Refactor - ONE Pattern & RFC 2822
+# 2025-06-14: Major Mind-Swarm Refactor - ONE Pattern & RFC 2822
 
 ## Summary
 
-Today we implemented two fundamental architectural changes to MindSwarm:
+Today we implemented two fundamental architectural changes to Mind-Swarm:
 1. The ONE Agent Pattern - a single, consistent approach to agent lifecycle
 2. RFC 2822 Email Format - leveraging LLMs' inherent understanding of email
 

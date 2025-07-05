@@ -1,7 +1,7 @@
 # 2025-06-11: Test Suite Cleanup (Issue #38)
 
 ## Summary
-Cleaned up MindSwarmSimpleTasks test suite and pushed changes to existing GitHub repo. The repo already exists but uses CamelCase naming instead of snake_case.
+Cleaned up Mind-SwarmSimpleTasks test suite and pushed changes to existing GitHub repo. The repo already exists but uses CamelCase naming instead of snake_case.
 
 ## Work Done
 
@@ -19,7 +19,7 @@ Cleaned up MindSwarmSimpleTasks test suite and pushed changes to existing GitHub
 - Already had proper .gitignore for test artifacts
 
 ### Current Status
-- Tests are pushed to https://github.com/ltngt-ai/MindSwarmSimpleTasks
+- Tests are pushed to https://github.com/ltngt-ai/Mind-SwarmSimpleTasks
 - Repo uses CamelCase name instead of snake_case (as requested in issue)
 - Tests are now agent-specific rather than expecting all agents to do the same tasks
 
@@ -29,4 +29,4 @@ Cleaned up MindSwarmSimpleTasks test suite and pushed changes to existing GitHub
 - Archive or redirect old repo
 
 ## Issue #46 Notes
-Issue #46 mentions that MindSwarmSimpleTasks bypasses CLI workspace support. This needs investigation and potentially implementing workspace support in the CLI.
+Issue #46 mentions that Mind-SwarmSimpleTasks bypasses CLI workspace support. This needs investigation and potentially implementing workspace support in the CLI.

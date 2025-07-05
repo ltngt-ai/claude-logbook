@@ -1,7 +1,7 @@
 # 2025-06-14: Comprehensive Logging Improvements Complete
 
 ## Summary
-Successfully implemented comprehensive logging improvements for MindSwarm, addressing all pain points from issue #128. This gives us much better debugging capabilities for understanding system behavior and tracking down issues.
+Successfully implemented comprehensive logging improvements for Mind-Swarm, addressing all pain points from issue #128. This gives us much better debugging capabilities for understanding system behavior and tracking down issues.
 
 ## Key Accomplishments
 
@@ -82,4 +82,4 @@ With improved logging in place, we can now:
 3. **Automation Helps**: Auto-cleanup on startup prevents log accumulation issues
 4. **Security First**: Using `runpy.run_path()` instead of `exec()` improves security
 
-This logging infrastructure will be invaluable as we continue developing MindSwarm's agent-first architecture.
+This logging infrastructure will be invaluable as we continue developing Mind-Swarm's agent-first architecture.

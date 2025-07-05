@@ -1,7 +1,7 @@
 # UI Agent Complete - True Agent-First Architecture Achieved
 
 **Date:** June 12, 2025  
-**Project:** MindSwarm Core  
+**Project:** Mind-Swarm Core  
 **Status:** Complete - MAJOR ARCHITECTURAL MILESTONE  
 **Commit:** 4ba8d7d - "BOLD: Complete UI Agent implementation - ALL operations through mail system"
 
@@ -177,8 +177,8 @@ self.interceptable_operations = {
 
 ## Conclusion
 
-This architectural transformation represents a major milestone in MindSwarm's evolution. By making the UI Agent THE single entry point for all frontend operations, we've achieved true agent-first architecture. The frontend is now just another agent in the system, communicating through the universal mail protocol.
+This architectural transformation represents a major milestone in Mind-Swarm's evolution. By making the UI Agent THE single entry point for all frontend operations, we've achieved true agent-first architecture. The frontend is now just another agent in the system, communicating through the universal mail protocol.
 
 The removal of 1600+ lines of handler code and replacement with a single, intelligent entry point demonstrates the power of the agent-first approach. The UI Agent serves as the perfect translator between human needs (friendly names, context awareness) and system requirements (precision, FQNs).
 
-This bold move, inspired by the user's "I love to live dangerously" comment, has resulted in a cleaner, more maintainable, and more powerful architecture. The future of MindSwarm is agent-first, and the UI Agent is the gateway to that future.
+This bold move, inspired by the user's "I love to live dangerously" comment, has resulted in a cleaner, more maintainable, and more powerful architecture. The future of Mind-Swarm is agent-first, and the UI Agent is the gateway to that future.

@@ -1,8 +1,8 @@
-# MindSwarm Code Hygiene Cleanup Plan
+# Mind-Swarm Code Hygiene Cleanup Plan
 Date: 2025-01-16
 
 ## Overview
-This plan tracks the systematic cleanup of MindSwarm codebase to improve code hygiene and complete the agent-first architecture migration.
+This plan tracks the systematic cleanup of Mind-Swarm codebase to improve code hygiene and complete the agent-first architecture migration.
 
 ## Phase 1: Remove System Assistant (1-2 days)
 **Priority: HIGH - Blocks agent-first architecture**

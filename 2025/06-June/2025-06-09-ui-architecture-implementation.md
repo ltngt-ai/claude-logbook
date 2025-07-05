@@ -1,4 +1,4 @@
-# MindSwarm UI Architecture Implementation - June 9, 2025
+# Mind-Swarm UI Architecture Implementation - June 9, 2025
 
 ## Session Start: 2025-06-09T14:30:00Z
 

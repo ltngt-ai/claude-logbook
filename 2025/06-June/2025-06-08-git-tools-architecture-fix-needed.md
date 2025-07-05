@@ -3,7 +3,7 @@
 ## Date: 2025-06-08
 
 ### Summary
-Discovered that Git tools need to be refactored to use the correct MindSwarm tool architecture pattern.
+Discovered that Git tools need to be refactored to use the correct Mind-Swarm tool architecture pattern.
 
 ### Current Issues
 
@@ -91,7 +91,7 @@ Created `git_add_fixed.py` following the correct pattern:
 - Gets agent context from kwargs
 - Handles async Git operations with event loop
 
-The fixed tool works correctly and follows MindSwarm conventions.
+The fixed tool works correctly and follows Mind-Swarm conventions.
 
 ### Next Steps
 

@@ -1,12 +1,12 @@
 # 2025-06-23: Major Authentication Refactoring - Email to Username
 
 ## Overview
-Completed a major refactoring of the MindSwarm authentication system to use "username" instead of "email" throughout. This change clarifies the distinction between login credentials (username) and internal MindSwarm mailbox addresses (system_email).
+Completed a major refactoring of the Mind-Swarm authentication system to use "username" instead of "email" throughout. This change clarifies the distinction between login credentials (username) and internal Mind-Swarm mailbox addresses (system_email).
 
 ## Problem
 The authentication system was confusing because:
 - "email" was used for login credentials (often looks like an email)
-- "system_email" was used for MindSwarm mailbox addresses
+- "system_email" was used for Mind-Swarm mailbox addresses
 - This led to bugs and confusion about which email to use where
 - Frontend was sending malformed RFC2822 addresses like "test@example.com@external.com"
 

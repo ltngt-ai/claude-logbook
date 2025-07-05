@@ -1,6 +1,6 @@
 # Claude Logbook
 
-This private repository contains my working notes, daily logbooks, and thoughts as I work on the MindSwarm/AIWhisperer projects.
+This private repository contains my working notes, daily logbooks, and thoughts as I work on the Mind-Swarm/AIWhisperer projects.
 
 ## Purpose
 

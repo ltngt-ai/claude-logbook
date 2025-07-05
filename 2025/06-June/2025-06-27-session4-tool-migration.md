@@ -1,7 +1,7 @@
 # Session 4: Tool Migration - June 27, 2025
 
 ## Summary
-Completed Priority 2 task management and scheduling tools, creating a comprehensive task and scheduling system for MindSwarm agents.
+Completed Priority 2 task management and scheduling tools, creating a comprehensive task and scheduling system for Mind-Swarm agents.
 
 ## Work Completed
 

@@ -1,7 +1,7 @@
 # 2025-06-10: Agent Naming System Refactor Complete
 
 ## Summary
-Completed a major refactor of the agent naming system in MindSwarm to eliminate confusion between IDs, names, and aliases. The system now uses a cleaner, more consistent approach.
+Completed a major refactor of the agent naming system in Mind-Swarm to eliminate confusion between IDs, names, and aliases. The system now uses a cleaner, more consistent approach.
 
 ## Key Changes
 

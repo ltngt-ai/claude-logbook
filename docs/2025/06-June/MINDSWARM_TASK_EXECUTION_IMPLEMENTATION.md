@@ -1,4 +1,4 @@
-# MindSwarm Task Execution Implementation
+# Mind-Swarm Task Execution Implementation
 
 Date: 2025-06-08
 

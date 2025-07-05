@@ -1,7 +1,7 @@
 # Channels System Removal Analysis - June 7, 2025
 
 ## Overview
-Analyzed the channels system in MindSwarm to determine if it's still relevant after the architectural changes from AIWhisperer to MindSwarm. Conclusion: The system is obsolete and should be removed.
+Analyzed the channels system in Mind-Swarm to determine if it's still relevant after the architectural changes from AIWhisperer to Mind-Swarm. Conclusion: The system is obsolete and should be removed.
 
 ## What is the Channels System?
 
@@ -18,7 +18,7 @@ The channels system was designed for AIWhisperer to:
 ## Why It's Obsolete
 
 ### 1. Architectural Mismatch
-- MindSwarm has clear backend/frontend separation via websockets
+- Mind-Swarm has clear backend/frontend separation via websockets
 - Frontend should control display logic, not backend routing
 - All messages already go through a unified websocket protocol
 
@@ -83,4 +83,4 @@ The channels system was designed for AIWhisperer to:
 5. **Better Performance**: No regex parsing overhead
 
 ## Decision
-Proceeding with complete removal of the channels system. This aligns with MindSwarm's cleaner architecture where backend provides data and frontend controls presentation.
+Proceeding with complete removal of the channels system. This aligns with Mind-Swarm's cleaner architecture where backend provides data and frontend controls presentation.

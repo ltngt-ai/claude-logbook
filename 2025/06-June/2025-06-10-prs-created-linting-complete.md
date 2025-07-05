@@ -26,7 +26,7 @@ Successfully created pull requests for both core backend and CLI frontend fixes,
 
 **Key Changes**:
 - Fix demo.sh to use new "agent create" command (deprecated "spawn")
-- Add register_user() method to MindSwarmClient for mailbox registration
+- Add register_user() method to Mind-SwarmClient for mailbox registration
 - Update assistant chat to register user sessions and receive responses
 - Fix response handling to check user's own mailbox for assistant replies
 - Complete assistant chat functionality with new mail system

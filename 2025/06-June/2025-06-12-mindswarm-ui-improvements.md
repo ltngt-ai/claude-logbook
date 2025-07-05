@@ -1,4 +1,4 @@
-# MindSwarm UI Improvements - Session 6
+# Mind-Swarm UI Improvements - Session 6
 *Date: December 6, 2024*
 
 ## Major Accomplishments

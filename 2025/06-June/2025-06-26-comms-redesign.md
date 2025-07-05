@@ -1,4 +1,4 @@
-# MindSwarm UI Communication Redesign
+# Mind-Swarm UI Communication Redesign
 Date: 2024-11-26
 
 ## Context
@@ -72,4 +72,4 @@ Projects View
 3. Test with real agent interactions
 4. Add activity feed if needed
 
-This design leverages the fact that MindSwarm already routes most user interaction through Project Managers, making the UI match the actual system behavior.
+This design leverages the fact that Mind-Swarm already routes most user interaction through Project Managers, making the UI match the actual system behavior.

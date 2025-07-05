@@ -3,7 +3,7 @@
 Date: 2025-01-07
 
 ## Summary
-Successfully implemented the hierarchical event system for MindSwarm, enabling event emission, propagation, and handling across server, project, and task levels. This completes another major component of the new architecture.
+Successfully implemented the hierarchical event system for Mind-Swarm, enabling event emission, propagation, and handling across server, project, and task levels. This completes another major component of the new architecture.
 
 ## Key Features Implemented
 
@@ -186,4 +186,4 @@ Fixed enum comparison to use `.value` for reliable hierarchy traversal.
 4. **Observable System**: All significant actions emit events for monitoring
 5. **Flexible Filtering**: Subscribe to exactly the events you need
 
-The event system provides the nervous system for MindSwarm, enabling components to react to changes and coordinate activities across the entire hierarchy!
+The event system provides the nervous system for Mind-Swarm, enabling components to react to changes and coordinate activities across the entire hierarchy!

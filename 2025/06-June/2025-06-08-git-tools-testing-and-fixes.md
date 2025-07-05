@@ -23,7 +23,7 @@ Ran tests after Git integration changes and fixed import issues across the codeb
 
 ### Tool Pattern Inconsistency Discovered
 
-Found that MindSwarm has inconsistent tool implementations:
+Found that Mind-Swarm has inconsistent tool implementations:
 
 1. **Existing Git tools** (git_status.py, git_init.py):
    - Import from `mindswarm.tools.base import Tool, ToolResult`
@@ -51,6 +51,6 @@ Need to resolve tool implementation pattern:
 1. Determine correct tool base class structure
 2. Update all Git tools to use consistent pattern
 3. Either create missing classes or update imports
-4. Ensure all tools follow MindSwarm conventions
+4. Ensure all tools follow Mind-Swarm conventions
 
-The Git integration with ProjectManager is working correctly, but the individual Git tools need to be aligned with the actual MindSwarm tool architecture.
+The Git integration with ProjectManager is working correctly, but the individual Git tools need to be aligned with the actual Mind-Swarm tool architecture.

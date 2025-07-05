@@ -43,7 +43,7 @@ Implementation handles:
 Created three interconnected packs to demonstrate the system:
 
 **mindswarm-basics.yaml** (Core)
-- Introduction to MindSwarm concepts
+- Introduction to Mind-Swarm concepts
 - Links to agent types and communication patterns
 - FAQ section with hyperlinks
 
@@ -55,7 +55,7 @@ Created three interconnected packs to demonstrate the system:
 **project-architecture.yaml** (Example)
 - Shows project-specific knowledge structure
 - External links to documentation
-- Integration with MindSwarm agents
+- Integration with Mind-Swarm agents
 
 #### 4. Validation System
 Built `validate_knowledge.py` to ensure pack correctness:

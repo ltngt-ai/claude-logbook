@@ -3,7 +3,7 @@
 ## 2025-06-27 - MAJOR MILESTONE: Agents Fully Operational
 
 ### 🎉 Achievement Summary
-Successfully completed the critical dependency chain for MindSwarm agent-first architecture:
+Successfully completed the critical dependency chain for Mind-Swarm agent-first architecture:
 **Agents** ✅ → **AI Loop** ✅ → **AI Providers** ✅ → **Tools** (ready)
 
 ### 🏗️ Key Architectural Improvements
@@ -86,7 +86,7 @@ The agent-first architecture principles are now proven:
 3. **Component discovery robustness**: Must handle schema files, subdirectories, validation gracefully
 4. **Agent-first testing**: Can't test tools without functioning agents - dependency order matters
 
-This milestone represents the successful completion of the foundational agent infrastructure for the MindSwarm rearchitecture. All core systems are operational and ready for tool integration testing.
+This milestone represents the successful completion of the foundational agent infrastructure for the Mind-Swarm rearchitecture. All core systems are operational and ready for tool integration testing.
 
 ---
 

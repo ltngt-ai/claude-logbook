@@ -55,7 +55,7 @@
 - Implemented workspace data models (Pydantic v2 compatible)
 - Created workspace service with CRUD operations (in-memory + JSON persistence)
 - Added agent data models and agent service
-- Integrated JSON-RPC handlers into MindSwarmServer
+- Integrated JSON-RPC handlers into Mind_SwarmServer
 - Fixed import paths for AgentManager and TaskExecutionEngine
 - All TDD tests passing (workspace API and agent API)
 - Tests organized in proper structure (`tests/api/`)
@@ -94,7 +94,7 @@
 ### Tailwind CSS v4 Integration ✅
 - Resolved PostCSS configuration issues
 - Configured Tailwind CSS v4 with proper Vite plugin
-- Custom MindSwarm color palette and component classes
+- Custom Mind-Swarm color palette and component classes
 - Modern responsive design system
 
 ### Development Environment ✅

@@ -41,7 +41,7 @@ Built configuration management with inheritance and validation.
 ## Architecture Insights
 
 ### Design Decision: No Backward Compatibility
-Per user guidance, we're building MindSwarm fresh without legacy constraints from AIWhisperer. This allows us to implement the correct architecture from the start.
+Per user guidance, we're building Mind-Swarm fresh without legacy constraints from AIWhisperer. This allows us to implement the correct architecture from the start.
 
 ### State vs Configuration
 - **State**: Runtime data that changes during execution

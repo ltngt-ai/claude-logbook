@@ -1,8 +1,8 @@
-# MindSwarm Complete Fix Summary - June 8, 2025
+# Mind-Swarm Complete Fix Summary - June 8, 2025
 
 ## 🎉 All Major Issues Fixed - Tests Now Passing!
 
-Successfully fixed all critical issues preventing MindSwarm agents from executing tasks. The test framework now shows agents successfully creating README.md files as requested.
+Successfully fixed all critical issues preventing Mind-Swarm agents from executing tasks. The test framework now shows agents successfully creating README.md files as requested.
 
 ## Issues Fixed (In Order)
 
@@ -75,7 +75,7 @@ def execute(self, arguments: Dict[str, Any] = None, **kwargs) -> Dict[str, Any]:
 3. Investigate occasional mailbox delivery issues with research agent
 
 ## Key Achievement
-The core MindSwarm functionality is now working end-to-end:
+The core Mind-Swarm functionality is now working end-to-end:
 - Project creation with custom IDs
 - Agent spawning and management
 - Task assignment and execution

@@ -1,8 +1,8 @@
-# MindSwarm Architecture Drift Analysis & Cleanup Plan
+# Mind-Swarm Architecture Drift Analysis & Cleanup Plan
 Date: 2025-01-06
 
 ## Summary
-Conducted comprehensive analysis of MindSwarm architecture and identified significant drift from our core "agent-first" principles. Created systematic plan to realign the system.
+Conducted comprehensive analysis of Mind-Swarm architecture and identified significant drift from our core "agent-first" principles. Created systematic plan to realign the system.
 
 ## Enhanced CLAUDE.md - Development Principles
 
@@ -10,7 +10,7 @@ Added clear architectural principles to guide development:
 
 ### Core Architecture Principle: Agent-First, AI-Driven
 
-MindSwarm is built on a fundamental principle: **Everything is driven by intelligent AI agents with their own loops and context**.
+Mind-Swarm is built on a fundamental principle: **Everything is driven by intelligent AI agents with their own loops and context**.
 
 Key concepts:
 1. **Agents Have AI Loops**: Each agent runs its own AI loop with persistent context, tools, and messaging capabilities
@@ -41,7 +41,7 @@ Key concepts:
 - **Impact**: Complex client implementation; harder to maintain
 
 ### 5. Not Dogfooding Our Own System
-- **Problem**: Development happens outside MindSwarm
+- **Problem**: Development happens outside Mind-Swarm
 - **Violation**: Not using our own agent-first approach for development
 - **Impact**: Missing insights; not experiencing our own UX
 
@@ -60,8 +60,8 @@ Meta-issue tracking the overall architecture realignment effort.
 - Create task management tools for agents
 - Support conversational task management
 
-### #66: Dogfood MindSwarm for Development
-- Create MindSwarm workspace for MindSwarm development
+### #66: Dogfood Mind-Swarm for Development
+- Create Mind-Swarm workspace for Mind-Swarm development
 - Use our own system to manage tasks and coordination
 - Gather real usage insights
 

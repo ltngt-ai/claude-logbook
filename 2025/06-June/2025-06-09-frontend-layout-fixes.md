@@ -1,7 +1,7 @@
 
 ## 2025-06-09 Frontend Layout Fixes
 
-Fixed critical layout issues in the MindSwarm UI:
+Fixed critical layout issues in the Mind-Swarm UI:
 
 ### Issues Fixed:
 1. **Full-screen layout** - Removed restrictive CSS that was preventing proper layout

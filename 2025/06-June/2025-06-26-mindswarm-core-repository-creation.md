@@ -1,4 +1,4 @@
-# MindSwarm Core Repository Creation - 2025-06-26
+# Mind-Swarm Core Repository Creation - 2025-06-26
 
 ## Overview
 
@@ -38,7 +38,7 @@ mindswarm-core/
 ### Core Infrastructure Implemented
 
 #### Exception System
-- Complete exception hierarchy with MindSwarmError base
+- Complete exception hierarchy with Mind_SwarmError base
 - Component-specific exceptions (ComponentError, ValidationError)
 - Error code and detail support for debugging
 - Clear error message formatting

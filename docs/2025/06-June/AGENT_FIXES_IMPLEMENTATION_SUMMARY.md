@@ -79,7 +79,7 @@ def _resolve_agent_session(self, agent_identifier: str) -> Optional[AgentSession
 
 ## Testing Notes
 
-The MindSwarmSimpleTasks framework is ready to test these changes:
+The Mind-SwarmSimpleTasks framework is ready to test these changes:
 - Test harness already passes project ID when spawning
 - Agents will now be created as `test-project.test-assistant` instead of global
 - Terminate command should work properly
@@ -87,7 +87,7 @@ The MindSwarmSimpleTasks framework is ready to test these changes:
 
 ## Next Steps
 
-1. Test the implementation with MindSwarmSimpleTasks
+1. Test the implementation with Mind-SwarmSimpleTasks
 2. Verify agents are properly scoped to projects
 3. Confirm terminate command works
 4. Check that agent listing filters by project correctly

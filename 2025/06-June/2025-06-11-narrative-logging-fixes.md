@@ -12,7 +12,7 @@ Fixed multiple issues with the agent narrative logging system that were preventi
 
 ### 2. get_file_content NoneType Error  
 - **Problem**: Tool was calling legacy `PathManager.get_instance()` which returned None
-- **Root Cause**: This was an artifact from the old "AI Whisperer" era before MindSwarm had project-specific PathManagers
+- **Root Cause**: This was an artifact from the old "AI Whisperer" era before Mind-Swarm had project-specific PathManagers
 - **Solution**: Updated to use project-specific PathManager from agent context
 - **Files**: `get_file_content.py`
 
@@ -44,7 +44,7 @@ Fixed multiple issues with the agent narrative logging system that were preventi
 ## Test Harness Discovery
 - Found that test harness was only giving agents 5 seconds to complete tasks
 - This wasn't enough time for complex operations like writing code
-- Increased timeout to 30 seconds in MindSwarmSimpleTasks
+- Increased timeout to 30 seconds in Mind-SwarmSimpleTasks
 - Agent behavior varies between runs (e.g., using `touch` + `write_file` vs `echo` directly)
 
 ## Agent Debugging Insights

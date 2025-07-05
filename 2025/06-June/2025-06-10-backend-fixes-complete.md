@@ -24,7 +24,7 @@ Successfully fixed all backend issues related to the agent-first architecture up
   - Added detection for when agent_id is already an FQN to avoid double construction
 - **Files**: 
   - `/home/deano/projects/mindswarm-core-private/src/mindswarm/server/main.py`
-  - `/home/deano/projects/MindSwarmSimpleTasks/lib/test-harness.sh`
+  - `/home/deano/projects/Mind-SwarmSimpleTasks/lib/test-harness.sh`
 
 ### 4. Updated send_mail Endpoint
 - **Problem**: Having both project_id parameter and FQN caused confusion and bugs

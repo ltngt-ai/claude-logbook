@@ -9,7 +9,7 @@ Implemented CLI conversation commands for natural language interaction with UI a
 ### 1. Conversation State Management Tools
 - Created 5 individual tools in `/src/mindswarm/tools/conversation/`
 - `start_conversation_tool.py`, `update_conversation_tool.py`, etc.
-- Proper MindSwarm tool structure with state persistence
+- Proper Mind-Swarm tool structure with state persistence
 
 ### 2. Dynamic UI Element Generation
 - Comprehensive schemas in `/src/mindswarm/schemas/ui_elements.py`

@@ -1,7 +1,7 @@
-# 2025-06-11: MindSwarmSimpleTasks Tasks Completed
+# 2025-06-11: Mind-SwarmSimpleTasks Tasks Completed
 
 ## Summary
-Completed all pending tasks for MindSwarmSimpleTasks and GitHub issues #38 and #46.
+Completed all pending tasks for Mind-SwarmSimpleTasks and GitHub issues #38 and #46.
 
 ## Tasks Completed
 
@@ -12,18 +12,18 @@ Completed all pending tasks for MindSwarmSimpleTasks and GitHub issues #38 and #
 - This allows the test harness to work without direct API access
 
 ### 2. Renamed Local Folder to Snake Case
-- Renamed `MindSwarmSimpleTasks` to `mindswarm_simple_tasks`
+- Renamed `Mind-SwarmSimpleTasks` to `mindswarm_simple_tasks`
 - This follows Python naming conventions
 - Addresses part of GitHub issue #38
 
 ## Notes
-- The existing GitHub repo remains as MindSwarmSimpleTasks (CamelCase)
+- The existing GitHub repo remains as Mind-SwarmSimpleTasks (CamelCase)
 - Creating a new snake_case repo was marked as low priority
 - User confirmed the only remaining task was renaming the local folder
 - All changes have been committed and pushed to the existing repo
 
 ## Repository Status
-All MindSwarm repositories are now properly organized:
+All Mind-Swarm repositories are now properly organized:
 - mindswarm-core-private
 - mindswarm-cli-private  
 - mindswarm-ui-private

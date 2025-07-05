@@ -1,7 +1,7 @@
 # Workspace Management APIs Implementation Complete - June 9, 2025
 
 ## Summary
-Successfully implemented Phase 1 critical workspace management APIs for MindSwarm, enabling proper workspace organization, project movement, and health monitoring.
+Successfully implemented Phase 1 critical workspace management APIs for Mind-Swarm, enabling proper workspace organization, project movement, and health monitoring.
 
 ## APIs Implemented
 
@@ -90,4 +90,4 @@ All APIs tested and working:
 
 ---
 
-The workspace management APIs provide the foundation for proper project organization in MindSwarm, enabling the UI to implement workspace switching, project management, and health monitoring features.
+The workspace management APIs provide the foundation for proper project organization in Mind-Swarm, enabling the UI to implement workspace switching, project management, and health monitoring features.

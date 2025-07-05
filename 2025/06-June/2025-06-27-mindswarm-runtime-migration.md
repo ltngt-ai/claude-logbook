@@ -1,4 +1,4 @@
-# MindSwarm Runtime Migration - Day 2
+# Mind-Swarm Runtime Migration - Day 2
 Date: 2025-06-27
 
 ## Session 2: Agent Management Tools Migration

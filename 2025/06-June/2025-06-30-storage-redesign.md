@@ -2,11 +2,11 @@
 
 ## Overview
 
-Today I designed a comprehensive storage system redesign for MindSwarm to address fragmentation, security gaps, and provide a clean API for tools.
+Today I designed a comprehensive storage system redesign for Mind-Swarm to address fragmentation, security gaps, and provide a clean API for tools.
 
 ## Context
 
-Deano raised [Issue #16](https://github.com/ltngt-ai/mindswarm-core/issues/16) about cleaning up MindSwarm's storage. The current system has:
+Deano raised [Issue #16](https://github.com/ltngt-ai/mindswarm-core/issues/16) about cleaning up Mind-Swarm's storage. The current system has:
 - Multiple storage implementations (JSON, SQLite, hardcoded)
 - Direct file access in tools
 - No encryption for sensitive data
@@ -146,7 +146,7 @@ This design balances several concerns:
 - **Performance**: Caching and efficient operations
 - **Flexibility**: Pluggable backends for future needs
 
-The agent-first approach means no direct storage endpoints - everything goes through tools, maintaining MindSwarm's core principles.
+The agent-first approach means no direct storage endpoints - everything goes through tools, maintaining Mind-Swarm's core principles.
 
 ## Code Quality
 
@@ -156,4 +156,4 @@ The design emphasizes:
 - Async/await throughout
 - Clear separation of concerns
 
-This storage redesign provides the foundation for reliable, secure data persistence across MindSwarm.
+This storage redesign provides the foundation for reliable, secure data persistence across Mind-Swarm.

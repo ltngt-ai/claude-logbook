@@ -3,7 +3,7 @@
 ## Date: 2025-06-10
 
 ### Summary
-Successfully expanded the MindSwarm workflow template library from 2 templates to 6 comprehensive templates, providing pre-built workflows for common development patterns. This completes the workflow template expansion task and brings the backend API enhancements to approximately 90% completion.
+Successfully expanded the Mind-Swarm workflow template library from 2 templates to 6 comprehensive templates, providing pre-built workflows for common development patterns. This completes the workflow template expansion task and brings the backend API enhancements to approximately 90% completion.
 
 ### What Was Implemented
 

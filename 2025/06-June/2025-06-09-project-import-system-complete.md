@@ -75,7 +75,7 @@ With Phase 1 (workspace management, response enhancement, events) and Phase 2 (p
 
 1. **Task Execution Engine** - Agent-driven execution with sleep/wake cycles
 2. **Task Orchestration API** - Cross-project task support
-3. **MindSwarm Assistant Agent** - Natural language UI helper
+3. **Mind-Swarm Assistant Agent** - Natural language UI helper
 4. **Workflow Templates** - Common development patterns
 
 The project import system provides a solid foundation for the UI to offer powerful project onboarding experiences, supporting everything from simple folder imports to sophisticated GitHub integrations with template-based initialization.

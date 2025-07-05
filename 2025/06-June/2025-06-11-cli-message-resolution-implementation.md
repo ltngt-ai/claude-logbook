@@ -3,7 +3,7 @@
 ## Date: 2025-06-11
 
 ## Summary
-Implemented automatic name resolution in the MindSwarm CLI message commands to convert user-friendly agent names/aliases to FQNs (Fully Qualified Names) before sending to the backend API.
+Implemented automatic name resolution in the Mind-Swarm CLI message commands to convert user-friendly agent names/aliases to FQNs (Fully Qualified Names) before sending to the backend API.
 
 ## Problem
 The user discovered that the CLI message send command required FQNs for the 'from' parameter, but users don't know their FQN. The backend API by design requires FQNs, so the solution was to make the frontend CLI resolve user-friendly names to FQNs.

@@ -1,4 +1,4 @@
-# MindSwarm Migration Session 4 - Priority 2 Tools Complete
+# Mind-Swarm Migration Session 4 - Priority 2 Tools Complete
 Date: 2025-06-27
 
 ## Summary
@@ -13,7 +13,7 @@ Created and deployed 4 tools:
 - `create_project` - Full project initialization with:
   - Directory structure (basic, python, web, documentation templates)
   - Git repository initialization
-  - MindSwarm metadata folder
+  - Mind-Swarm metadata folder
   - Initial knowledge pack generation
   - Project Manager agent spawning
 - `list_projects` - Project discovery with metadata, Git status, and agent info

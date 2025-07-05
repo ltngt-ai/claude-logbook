@@ -1,7 +1,7 @@
-# MindSwarm Tools Fix - June 8, 2025
+# Mind-Swarm Tools Fix - June 8, 2025
 
 ## Summary
-Fixed multiple critical issues in the MindSwarm test framework and tool system that were preventing agents from executing tasks successfully.
+Fixed multiple critical issues in the Mind-Swarm test framework and tool system that were preventing agents from executing tasks successfully.
 
 ## Issues Fixed
 

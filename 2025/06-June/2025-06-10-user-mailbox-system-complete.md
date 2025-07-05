@@ -16,7 +16,7 @@ Successfully implemented a pragmatic user mailbox system that allows frontends t
   - Stores metadata about the frontend session
 
 ### 2. Client: User Registration Method
-- **New Method**: `MindSwarmClient.register_user()`
+- **New Method**: `Mind-SwarmClient.register_user()`
 - **Location**: `/home/deano/projects/mindswarm-cli/src/mindswarm_cli/client/client.py`
 - **Parameters**: user_id, aliases, metadata
 
@@ -39,7 +39,7 @@ Successfully implemented a pragmatic user mailbox system that allows frontends t
 
 ### Assistant Chat Working Perfectly:
 ```bash
-$ mindswarm assistant chat "Can you help me understand MindSwarm?"
+$ mindswarm assistant chat "Can you help me understand Mind-Swarm?"
 ```
 
 **Logs show:**

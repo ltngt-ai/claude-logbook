@@ -3,7 +3,7 @@
 ## Date: 2025-06-08
 
 ### Summary
-Successfully integrated Git functionality with ProjectManager, providing seamless version control capabilities for MindSwarm projects.
+Successfully integrated Git functionality with ProjectManager, providing seamless version control capabilities for Mind-Swarm projects.
 
 ### Implementation Details
 
@@ -20,7 +20,7 @@ Created a dedicated class to handle all Git operations for projects:
 1. **Enhanced Git Initialization**
    - Async repository initialization
    - Comprehensive .gitignore generation
-   - Initial commit with MindSwarm attribution
+   - Initial commit with Mind-Swarm attribution
    - Git hooks for agent activity tracking
    - Custom initial branch support
 
@@ -77,4 +77,4 @@ Created comprehensive unit tests covering:
 4. Begin GitHub plugin architecture design
 5. Add Git flow automation features
 
-The integration provides a solid foundation for version control in MindSwarm, enabling safe and trackable agent collaboration on projects.
+The integration provides a solid foundation for version control in Mind-Swarm, enabling safe and trackable agent collaboration on projects.

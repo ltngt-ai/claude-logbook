@@ -8,7 +8,7 @@ Major refactoring of the authentication system to fix multiple issues with ident
 ### 1. Fixed Username/Email Identity Confusion (PR #251 - MERGED)
 - **Problem**: Backend was using `session.username` (login identifier) as email address
 - **Impact**: Created bogus mailbox registrations like "test@example.com" 
-- **Solution**: Fixed to use `session.system_email` for proper MindSwarm addresses
+- **Solution**: Fixed to use `session.system_email` for proper Mind-Swarm addresses
 - **Result**: Prevents "No identity set" errors after authentication
 
 ### 2. Implemented Ephemeral Authentication (PR #52 - MERGED)  

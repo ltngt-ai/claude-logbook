@@ -3,7 +3,7 @@
 Date: 2025-01-07
 
 ## Summary
-Successfully implemented the hierarchical mailbox system for agent communication within MindSwarm's new architecture. This enables FQN-based message routing with support for broadcast messaging at different hierarchy levels.
+Successfully implemented the hierarchical mailbox system for agent communication within Mind-Swarm's new architecture. This enables FQN-based message routing with support for broadcast messaging at different hierarchy levels.
 
 ## Key Features Implemented
 
@@ -141,4 +141,4 @@ Separate router component handles delivery logic, making it testable and extensi
 4. **Audit Trail**: Complete message history available
 5. **Async Performance**: Non-blocking communication
 
-The hierarchical mailbox system is now ready to enable sophisticated agent coordination within MindSwarm's multi-project, multi-task architecture!
+The hierarchical mailbox system is now ready to enable sophisticated agent coordination within Mind-Swarm's multi-project, multi-task architecture!

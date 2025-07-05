@@ -1,8 +1,8 @@
-# MindSwarm Milestone: Working Task Execution! 🎉
+# Mind-Swarm Milestone: Working Task Execution! 🎉
 **Date**: June 8, 2025
 
 ## Major Achievement
-Today marks a critical milestone in the MindSwarm project - we have achieved **end-to-end task execution**! Agents can now receive tasks, process them, and execute tools to complete real work.
+Today marks a critical milestone in the Mind-Swarm project - we have achieved **end-to-end task execution**! Agents can now receive tasks, process them, and execute tools to complete real work.
 
 ## What We Fixed
 
@@ -24,12 +24,12 @@ Today marks a critical milestone in the MindSwarm project - we have achieved **e
 - **Fix**: Changed PathManager defaults to set output_path = project_path
 - **Result**: Files created where tests expect them
 
-### 4. AIWhisperer → MindSwarm Cleanup ✅
+### 4. AIWhisperer → Mind-Swarm Cleanup ✅
 - Renamed all references throughout the codebase:
   - `.WHISPER` → `.mindswarm` directories
   - `aiwhisperer_` → `mindswarm_` log prefixes
   - Environment variables: `AIWHISPERER_` → `MINDSWARM_`
-  - OpenRouter app name: "AIWhisperer" → "MindSwarm"
+  - OpenRouter app name: "AIWhisperer" → "Mind-Swarm"
 
 ## Test Results
 ```
@@ -77,11 +77,11 @@ def execute(self, arguments: Dict[str, Any] = None, **kwargs) -> Dict[str, Any]:
 
 ## Commit Details
 - Commit: 009777f
-- Message: "feat: Major fixes enabling end-to-end task execution in MindSwarm"
+- Message: "feat: Major fixes enabling end-to-end task execution in Mind-Swarm"
 - Successfully pushed to origin/main
 
 ## What This Means
-This is the first time MindSwarm has successfully completed a full task execution cycle:
+This is the first time Mind-Swarm has successfully completed a full task execution cycle:
 1. **Project Creation** - With custom IDs
 2. **Agent Spawning** - Agents start and connect
 3. **Task Assignment** - Via mailbox system

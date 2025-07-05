@@ -1,10 +1,10 @@
-# MindSwarm Test Framework Cleanup Fix
+# Mind-Swarm Test Framework Cleanup Fix
 
 Date: 2025-06-08
 
 ## Issue
 
-The MindSwarmSimpleTasks test framework had a critical issue where agents persisted between test runs, causing subsequent tests to fail with "agent already exists" errors. The root cause was that the `mindswarm agent terminate` command prompted for confirmation, breaking automated cleanup in test scripts.
+The Mind-SwarmSimpleTasks test framework had a critical issue where agents persisted between test runs, causing subsequent tests to fail with "agent already exists" errors. The root cause was that the `mindswarm agent terminate` command prompted for confirmation, breaking automated cleanup in test scripts.
 
 ## Investigation
 
@@ -27,7 +27,7 @@ Added a `--yes/-y` flag to the `mindswarm agent terminate` command to skip confi
 @click.pass_context
 def terminate(ctx: click.Context, agent_fqn: str, force: bool, yes: bool):
     """Terminate an agent."""
-    client: MindSwarmClient = ctx.obj["client"]
+    client: Mind-SwarmClient = ctx.obj["client"]
     
     if not force and not yes:
         if not click.confirm(f"Are you sure you want to terminate agent '{agent_fqn}'?"):
@@ -69,7 +69,7 @@ Removed the automatic `--demo` flag from `start_server.py` as the server no long
 ### mindswarm-cli
 - `src/mindswarm_cli/commands/agent_commands.py` - Added `-y` flag
 
-### MindSwarmSimpleTasks
+### Mind-SwarmSimpleTasks
 - `lib/test-harness.sh` - Updated cleanup functions
 - `lib/cleanup-agents.sh` - Complete rewrite to use proper termination
 - `run-all-tests.sh` - Added cleanup steps
@@ -89,4 +89,4 @@ Removed the automatic `--demo` flag from `start_server.py` as the server no long
 
 ## Next Steps
 
-With proper cleanup in place, the SimpleTasks framework can now be used reliably to test task execution implementation when that feature is added to MindSwarm.
+With proper cleanup in place, the SimpleTasks framework can now be used reliably to test task execution implementation when that feature is added to Mind-Swarm.

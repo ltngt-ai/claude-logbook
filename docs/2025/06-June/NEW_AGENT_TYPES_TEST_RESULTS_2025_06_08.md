@@ -2,7 +2,7 @@
 **Date**: June 8, 2025
 
 ## Summary
-Successfully added 4 new agent types to MindSwarm and tested them with SimpleTasks framework.
+Successfully added 4 new agent types to Mind-Swarm and tested them with SimpleTasks framework.
 
 ## New Agent Types Created
 

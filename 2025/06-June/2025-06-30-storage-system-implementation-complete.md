@@ -132,7 +132,7 @@ Maintaining agent-first principles requires constant vigilance against tradition
 3. **Monitoring integration**: Add metrics and logging for storage operations
 4. **Documentation expansion**: Create comprehensive usage guides
 
-This storage system implementation represents a major milestone in MindSwarm's infrastructure, providing a solid foundation for agent-first storage patterns while maintaining security, performance, and maintainability standards.
+This storage system implementation represents a major milestone in Mind-Swarm's infrastructure, providing a solid foundation for agent-first storage patterns while maintaining security, performance, and maintainability standards.
 
 ---
 

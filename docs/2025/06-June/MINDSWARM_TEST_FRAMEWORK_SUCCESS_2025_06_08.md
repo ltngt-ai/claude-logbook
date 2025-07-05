@@ -1,9 +1,9 @@
-# MindSwarm Test Framework Success! 🎉
+# Mind-Swarm Test Framework Success! 🎉
 **Date**: June 8, 2025
 
 ## Major Achievement: AI Code Generation Testing
 
-Today we successfully created and executed our first AI code generation test, marking another crucial milestone in the MindSwarm project.
+Today we successfully created and executed our first AI code generation test, marking another crucial milestone in the Mind-Swarm project.
 
 ## What We Built
 
@@ -99,4 +99,4 @@ The journey from "agents not creating files" to "agents writing working code" in
 
 ## Repository Created
 
-Successfully created and pushed to: https://github.com/ltngt-ai/MindSwarmSimpleTasks (private repo)
+Successfully created and pushed to: https://github.com/ltngt-ai/Mind-SwarmSimpleTasks (private repo)

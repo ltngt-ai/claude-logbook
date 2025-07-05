@@ -1,7 +1,7 @@
 # Event Subscription System Implementation Complete - June 9, 2025
 
 ## Summary
-Successfully implemented Phase 1 event subscription management APIs, enabling real-time event streaming and historical event queries for the MindSwarm frontend.
+Successfully implemented Phase 1 event subscription management APIs, enabling real-time event streaming and historical event queries for the Mind-Swarm frontend.
 
 ## APIs Implemented
 

@@ -43,7 +43,7 @@ else:
 ### 3. Project Creation Issues
 - **Old AIWhisperer Code**: References to `_create_whisper_structure` causing errors
 - **Fix**: Replaced with simple `.mindswarm` directory creation
-- **Remaining Issue**: Project creation still needs proper MindSwarm structure implementation
+- **Remaining Issue**: Project creation still needs proper Mind-Swarm structure implementation
 
 ### 4. Test Results
 
@@ -75,7 +75,7 @@ This suggests only type 'a' agents are working properly, while specialized agent
 
 ## Next Steps
 
-1. **Fix Project Creation**: Implement proper MindSwarm project structure
+1. **Fix Project Creation**: Implement proper Mind-Swarm project structure
 2. **Test with Valid Projects**: Use existing projects that have PathManagers
 3. **Debug Agent Types**: Investigate why only 'a' type agents execute tasks
 4. **Verify Continuation**: Once agents work, verify continuation protocol functions

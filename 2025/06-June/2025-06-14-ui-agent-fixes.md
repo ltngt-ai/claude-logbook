@@ -1,7 +1,7 @@
 # 2024-12-14: UI Agent Communication Fixes
 
 ## Session Overview
-Today's session focused on resolving critical issues with UI agent communication in the MindSwarm system. The primary goal was to fix agent reply visibility and connection stability issues that were blocking progress on the UI create project epic.
+Today's session focused on resolving critical issues with UI agent communication in the Mind-Swarm system. The primary goal was to fix agent reply visibility and connection stability issues that were blocking progress on the UI create project epic.
 
 ## Problems Encountered
 

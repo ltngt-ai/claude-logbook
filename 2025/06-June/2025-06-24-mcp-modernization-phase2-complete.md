@@ -1,7 +1,7 @@
 # MCP Modernization Phase 2 Complete - 2025-06-24
 
 ## Summary
-Successfully completed Phase 2 of the MCP (Model Context Protocol) modernization in MindSwarm. This phase focused on implementing standard MCP transports using the official SDK and removing all legacy, non-standard code.
+Successfully completed Phase 2 of the MCP (Model Context Protocol) modernization in Mind-Swarm. This phase focused on implementing standard MCP transports using the official SDK and removing all legacy, non-standard code.
 
 ## Key Achievements
 
@@ -88,4 +88,4 @@ Created comprehensive documentation in `docs/mcp-modernization-phase2.md` coveri
 - **Test Coverage**: Clean interfaces make testing easier
 
 ## Conclusion
-Phase 2 has successfully modernized the MCP implementation in MindSwarm, creating a clean, maintainable foundation for Phase 3's agent integration. The dramatic code reduction and use of standard transports positions us well for the final integration phase.
+Phase 2 has successfully modernized the MCP implementation in Mind-Swarm, creating a clean, maintainable foundation for Phase 3's agent integration. The dramatic code reduction and use of standard transports positions us well for the final integration phase.

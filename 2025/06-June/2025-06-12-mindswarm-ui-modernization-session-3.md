@@ -1,4 +1,4 @@
-# MindSwarm UI Modernization - Session 3
+# Mind-Swarm UI Modernization - Session 3
 Date: 2025-06-12
 
 ## Completed Tasks

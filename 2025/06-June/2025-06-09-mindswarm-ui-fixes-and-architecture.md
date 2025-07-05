@@ -1,8 +1,8 @@
-# MindSwarm UI Fixes and Architecture Enforcement
+# Mind-Swarm UI Fixes and Architecture Enforcement
 Date: 2025-06-09
 
 ## Summary
-Fixed critical UI issues in MindSwarm frontend and enforced proper architectural hierarchy to prevent illegal operations.
+Fixed critical UI issues in Mind-Swarm frontend and enforced proper architectural hierarchy to prevent illegal operations.
 
 ## Issues Fixed
 

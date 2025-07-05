@@ -9,7 +9,7 @@ Fixed fundamental issues with project creation, structure, and agent configurati
 
 ### 1. Project Structure Migration
 - **Old Structure**: AIWhisperer legacy with alice/patricia/tessa agent directories
-- **New Structure**: Clean MindSwarm structure with:
+- **New Structure**: Clean Mind-Swarm structure with:
   ```
   .mindswarm/
   ├── agents/      # Agent-specific data
@@ -47,7 +47,7 @@ Fixed fundamental issues with project creation, structure, and agent configurati
 
 ### Modified Files
 1. `src/mindswarm/services/workspace/project_manager.py`:
-   - Line 126-146: Updated `_create_project_structure` to use MindSwarm directories
+   - Line 126-146: Updated `_create_project_structure` to use Mind-Swarm directories
    - Line 579-583: Fixed project creation to use proper method
 
 2. `src/mindswarm/server/main.py`:

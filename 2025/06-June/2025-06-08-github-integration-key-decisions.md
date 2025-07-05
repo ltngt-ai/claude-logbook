@@ -1,7 +1,7 @@
 # GitHub Integration Key Design Decisions - 2025-06-08
 
 ## Executive Summary
-After analyzing the GitHub API reference design from manus.im and MindSwarm's architecture, I've designed a hybrid approach that maximizes safety, extensibility, and practical utility.
+After analyzing the GitHub API reference design from manus.im and Mind-Swarm's architecture, I've designed a hybrid approach that maximizes safety, extensibility, and practical utility.
 
 ## 🏗️ Architecture Decision: Hybrid Built-in + Plugin
 
@@ -162,7 +162,7 @@ if conflict_detected:
 - Local caching for reads
 - Lazy loading for large repos
 
-## 📈 Benefits for MindSwarm
+## 📈 Benefits for Mind-Swarm
 
 1. **Safety First** - No accidental damage to codebases
 2. **Full Automation** - Complete workflows without human intervention
@@ -189,6 +189,6 @@ if conflict_detected:
 
 ## Conclusion
 
-This design leverages the excellent patterns from the manus.im reference while adapting them to MindSwarm's unique architecture. The hybrid approach ensures that essential Git functionality is always available while keeping platform-specific features modular and extensible.
+This design leverages the excellent patterns from the manus.im reference while adapting them to Mind-Swarm's unique architecture. The hybrid approach ensures that essential Git functionality is always available while keeping platform-specific features modular and extensible.
 
-The emphasis on safety through branch isolation and automated checks ensures that agents can work autonomously without risk to production code. The workflow automation capabilities position MindSwarm as a powerful tool for real-world development teams.
+The emphasis on safety through branch isolation and automated checks ensures that agents can work autonomously without risk to production code. The workflow automation capabilities position Mind-Swarm as a powerful tool for real-world development teams.

@@ -1,4 +1,4 @@
-# Understanding CI Tests in MindSwarm
+# Understanding CI Tests in Mind-Swarm
 
 Date: June 9, 2025
 

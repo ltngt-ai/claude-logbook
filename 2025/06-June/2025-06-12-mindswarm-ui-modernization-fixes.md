@@ -1,7 +1,7 @@
-# MindSwarm UI Modernization Fixes - June 12, 2025
+# Mind-Swarm UI Modernization Fixes - June 12, 2025
 
 ## Summary
-Fixed multiple critical bugs that were preventing the MindSwarm UI from functioning properly. The main issues were related to WebSocket datetime serialization, ResponseEnhancerService causing agent listing errors, excessive debug logging, and project creation errors.
+Fixed multiple critical bugs that were preventing the Mind-Swarm UI from functioning properly. The main issues were related to WebSocket datetime serialization, ResponseEnhancerService causing agent listing errors, excessive debug logging, and project creation errors.
 
 ## Issues Fixed
 

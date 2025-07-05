@@ -2,7 +2,7 @@
 
 ## Summary
 
-Today marked a significant milestone in the MindSwarm architecture evolution. We successfully implemented a minimal UI agent that uses RFC2822 mail messages for frontend-backend communication, reducing the ui_agent.py from over 2000 lines to just 245 lines while maintaining full functionality. This demonstrates the power of the agent-first architecture where agents communicate through mail rather than direct API calls.
+Today marked a significant milestone in the Mind-Swarm architecture evolution. We successfully implemented a minimal UI agent that uses RFC2822 mail messages for frontend-backend communication, reducing the ui_agent.py from over 2000 lines to just 245 lines while maintaining full functionality. This demonstrates the power of the agent-first architecture where agents communicate through mail rather than direct API calls.
 
 ## What We Accomplished
 

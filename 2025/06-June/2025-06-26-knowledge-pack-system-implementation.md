@@ -1,10 +1,10 @@
 # 2025-06-26: Knowledge Pack System Implementation
 
 ## Summary
-Implemented a comprehensive knowledge pack system for MindSwarm agents, enabling dynamic capability extension through YAML-based tool definitions. Cleaned up 75+ tool files by removing parameter duplication and created PR #299 which was successfully merged.
+Implemented a comprehensive knowledge pack system for Mind-Swarm agents, enabling dynamic capability extension through YAML-based tool definitions. Cleaned up 75+ tool files by removing parameter duplication and created PR #299 which was successfully merged.
 
 ## The Problem
-MindSwarm agents needed a flexible way to:
+Mind-Swarm agents needed a flexible way to:
 1. **Extend capabilities dynamically** - Add new tools without code changes
 2. **Share knowledge** - Reusable tool sets across different agent types
 3. **Version control tools** - Track and manage tool definitions separately
@@ -127,7 +127,7 @@ input_schema:
 - **Impact**: Foundation for future agent capability extensions
 
 ## Architecture Insights
-The knowledge pack system aligns perfectly with MindSwarm's agent-first principles:
+The knowledge pack system aligns perfectly with Mind-Swarm's agent-first principles:
 - **Intelligence through configuration**: Agents gain capabilities through YAML, not code
 - **Flexibility**: Different agents can have different tool sets
 - **Maintainability**: Tools can be updated without touching agent code
@@ -145,4 +145,4 @@ The knowledge pack system aligns perfectly with MindSwarm's agent-first principl
 3. **Backward compatibility matters**: Even pre-v1.0, smooth migration helps
 4. **Documentation in YAML**: Tool descriptions become self-documenting
 
-This knowledge pack system sets the foundation for a more flexible and extensible agent ecosystem in MindSwarm.
+This knowledge pack system sets the foundation for a more flexible and extensible agent ecosystem in Mind-Swarm.

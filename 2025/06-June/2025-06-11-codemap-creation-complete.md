@@ -5,7 +5,7 @@ Created comprehensive code maps for mindswarm-core-private and mindswarm-cli-pri
 
 ## Code Maps Created
 
-### MindSwarm Core Private
+### Mind-Swarm Core Private
 1. **Root CODEMAP.md** - Overview, quick start, and navigation
    - Server management instructions
    - Virtual environment setup
@@ -27,7 +27,7 @@ Created comprehensive code maps for mindswarm-core-private and mindswarm-cli-pri
    - `tests/CODEMAP.md` - Testing strategy and structure
    - `docs/CODEMAP.md` - Documentation organization
 
-### MindSwarm CLI Private
+### Mind-Swarm CLI Private
 1. **Root CODEMAP.md** - CLI overview and usage
    - Installation instructions
    - Basic usage examples

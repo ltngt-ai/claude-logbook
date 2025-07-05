@@ -1,7 +1,7 @@
 # Agent Instance Management and Lifecycle Analysis
 
 ## Context
-Analysis of MindSwarm requirements for agent instance management and lifecycle based on existing FQN system, hierarchical contexts, and task orchestration architecture.
+Analysis of Mind-Swarm requirements for agent instance management and lifecycle based on existing FQN system, hierarchical contexts, and task orchestration architecture.
 
 ## Key Findings from Codebase Analysis
 

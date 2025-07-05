@@ -1,15 +1,15 @@
-# User Story 1: Living MindSwarm Assistant Implementation
+# User Story 1: Living Mind-Swarm Assistant Implementation
 
 ## Date: 2025-06-10
 
 ## Summary
-Today we successfully implemented User Story 1 - the Living MindSwarm Assistant. This marks a significant milestone in making MindSwarm a persistent, always-available AI assistant that can help users with their MindSwarm projects.
+Today we successfully implemented User Story 1 - the Living Mind-Swarm Assistant. This marks a significant milestone in making Mind-Swarm a persistent, always-available AI assistant that can help users with their Mind-Swarm projects.
 
 ## Key Implementation Details
 
 ### 1. Agent-First Architecture
 We adopted an agent-first approach where:
-- The MindSwarm Assistant exists as a persistent agent within the system
+- The Mind-Swarm Assistant exists as a persistent agent within the system
 - Agents can be in sleeping or waking states
 - The assistant agent wakes when needed and sleeps when idle
 - This provides continuity and state persistence across sessions
@@ -23,7 +23,7 @@ Created a new information store tool that allows the assistant to:
 
 ### 3. System Initialization
 Implemented proper system initialization:
-- The MindSwarm Assistant agent is created automatically on system startup
+- The Mind-Swarm Assistant agent is created automatically on system startup
 - Ensures the assistant is always available when users need it
 - Proper lifecycle management for the assistant agent
 
@@ -53,7 +53,7 @@ Created PR #27: https://github.com/ltngt-ai/mindswarm-core-private/pull/27
 
 This PR includes:
 - Information store tool implementation
-- MindSwarm Assistant agent definition
+- Mind-Swarm Assistant agent definition
 - System initialization updates
 - Frontend implementation guide
 - Tests for all new functionality
@@ -62,9 +62,9 @@ This PR includes:
 1. Review and merge PR #27
 2. Implement the frontend mail-based chat interface
 3. Add more sophisticated knowledge management capabilities
-4. Enhance the assistant's ability to help with MindSwarm-specific tasks
+4. Enhance the assistant's ability to help with Mind-Swarm-specific tasks
 
 ## Reflections
-This implementation represents a significant step forward in making MindSwarm more than just a framework - it's now becoming a living system with its own persistent assistant. The agent-first architecture provides a solid foundation for future enhancements, and the mail-based interface offers a natural way for users to interact with their AI assistant.
+This implementation represents a significant step forward in making Mind-Swarm more than just a framework - it's now becoming a living system with its own persistent assistant. The agent-first architecture provides a solid foundation for future enhancements, and the mail-based interface offers a natural way for users to interact with their AI assistant.
 
 The concept of sleeping/waking agents is particularly powerful, as it allows us to have many specialized agents available without consuming resources when they're not needed. This sets the stage for a rich ecosystem of specialized helper agents in the future.

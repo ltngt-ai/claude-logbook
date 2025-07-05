@@ -1,4 +1,4 @@
-# MindSwarm Hierarchical Architecture Progress Summary
+# Mind-Swarm Hierarchical Architecture Progress Summary
 
 Date: 2025-01-07
 
@@ -125,4 +125,4 @@ The hierarchical architecture is now functionally complete for the core orchestr
 - Implementing the actual agent runtime
 - Building the execution engine that brings it all together
 
-With 570 tests passing and 7 major components implemented, MindSwarm now has a solid foundation for multi-agent orchestration at scale!
+With 570 tests passing and 7 major components implemented, Mind-Swarm now has a solid foundation for multi-agent orchestration at scale!

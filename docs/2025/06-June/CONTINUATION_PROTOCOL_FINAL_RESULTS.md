@@ -93,6 +93,6 @@ The continuation protocol failure for GPT-4o appears to be model-specific behavi
   - Fixed project_id tracking in agent logger calls
 
 ### Test Artifacts
-- Working test: `/home/deano/projects/MindSwarmSimpleTasks/tests/004-task-continuation-protocol/`
+- Working test: `/home/deano/projects/Mind-SwarmSimpleTasks/tests/004-task-continuation-protocol/`
 - Agent logs: `/home/deano/projects/mindswarm-core-private/logs/agents/`
 - Test results show consistent behavior: Claude-2 passes, GPT-4o fails at Phase 3

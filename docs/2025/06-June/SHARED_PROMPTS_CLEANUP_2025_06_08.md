@@ -2,7 +2,7 @@
 **Date**: June 8, 2025
 
 ## Overview
-Cleaned up and simplified the shared prompts system in MindSwarm to remove confusion, duplication, and model-specific references that agents wouldn't understand.
+Cleaned up and simplified the shared prompts system in Mind-Swarm to remove confusion, duplication, and model-specific references that agents wouldn't understand.
 
 ## Changes Made
 
@@ -17,7 +17,7 @@ Cleaned up and simplified the shared prompts system in MindSwarm to remove confu
 - Kept core.md focused on fundamental agent behavior
 
 ### 3. Made tool_guidelines.md Generic
-- Previous version referenced specific tools that don't exist in MindSwarm
+- Previous version referenced specific tools that don't exist in Mind-Swarm
 - Rewrote to provide general principles without naming specific tools
 - Clarified the confusion about "one tool per step" vs "batch operations"
   - Now explains: Use one tool per step, but maximize each tool's capabilities

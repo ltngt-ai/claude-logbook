@@ -1,7 +1,7 @@
 # AIWhisperer Archive Cleanup - June 9, 2025
 
 ## Summary
-Successfully archived the legacy AIWhisperer project to eliminate confusion and focus development on MindSwarm.
+Successfully archived the legacy AIWhisperer project to eliminate confusion and focus development on Mind-Swarm.
 
 ## Actions Completed
 
@@ -13,7 +13,7 @@ Successfully archived the legacy AIWhisperer project to eliminate confusion and 
 ### 2. Documentation Added
 - **Created:** `AIWHISPERER_ARCHIVE_README.md` with complete archive documentation
 - **Includes:** Migration notes, archive contents, restoration instructions
-- **References:** Current MindSwarm project structure
+- **References:** Current Mind-Swarm project structure
 
 ### 3. Project Status Verification
 - Confirmed AIWhisperer had clean git status before archiving
@@ -39,22 +39,22 @@ Successfully archived the legacy AIWhisperer project to eliminate confusion and 
 
 ### Positive Outcomes
 ✅ **Reduced Confusion** - Eliminated legacy codebase causing development confusion  
-✅ **Focused Development** - Clear focus on MindSwarm active projects  
+✅ **Focused Development** - Clear focus on Mind-Swarm active projects  
 ✅ **Preserved History** - Complete archive with documentation for future reference  
 ✅ **Clean Workspace** - Simplified project directory structure
 
 ### Next Steps
-- Continue backend API enhancement for MindSwarm (identified as top priority)
+- Continue backend API enhancement for Mind-Swarm (identified as top priority)
 - Implement workspace management APIs and legacy terminology cleanup
 - Focus on managed/unmanaged project architecture improvements
 
 ## Reference
 
-The AIWhisperer project contained valuable concepts that have been evolved in MindSwarm:
+The AIWhisperer project contained valuable concepts that have been evolved in Mind-Swarm:
 - Multi-agent async communication (mailbox system)
 - Specialized AI agents (Alice, Patricia, Debbie, Eamonn, Tessa)
 - MCP integration architecture
 - Conversation replay functionality
 - Agent context management
 
-All of these concepts are being refined and improved in the current MindSwarm architecture.
+All of these concepts are being refined and improved in the current Mind-Swarm architecture.

@@ -1,7 +1,7 @@
 # 2025-06-11: Complete Assistant System Fix - All Repositories Updated
 
 ## Summary
-Successfully completed a comprehensive fix of the MindSwarm assistant system across all three repositories (core, CLI, UI). The assistant now works reliably for both CLI and web frontend with multiple consecutive messages.
+Successfully completed a comprehensive fix of the Mind-Swarm assistant system across all three repositories (core, CLI, UI). The assistant now works reliably for both CLI and web frontend with multiple consecutive messages.
 
 ## Problem Solved
 **Original Issue**: Assistant worked once, then failed on subsequent messages with OpenRouter tool calling protocol errors.
@@ -17,7 +17,7 @@ Removed unnecessary complexity and implemented proper user registration system a
 
 ## Repository Changes
 
-### 1. MindSwarm Core (`mindswarm-core-private`)
+### 1. Mind-Swarm Core (`mindswarm-core-private`)
 **Branch**: `fix-assistant-mail-processing`
 **Commits**: 
 - `8a90fc9` - Remove task queue abstraction for mail processing
@@ -37,7 +37,7 @@ src/mindswarm/core/communication/mailbox.py
 src/mindswarm/server/main.py
 ```
 
-### 2. MindSwarm CLI (`mindswarm-cli-private`)
+### 2. Mind-Swarm CLI (`mindswarm-cli-private`)
 **Branch**: `main`
 **Commit**: `ab320a6` - Update CLI to use proper user_{uuid} registration
 
@@ -52,7 +52,7 @@ src/mindswarm_cli/commands/assistant_commands.py
 src/mindswarm_cli/client/client.py
 ```
 
-### 3. MindSwarm UI (`mindswarm-ui-private`)
+### 3. Mind-Swarm UI (`mindswarm-ui-private`)
 **Branch**: `feature/ui-modernization`
 **Commit**: `b1e8317` - Update frontend to use WebSocket user registration
 
@@ -146,4 +146,4 @@ All todo items completed:
 - ✅ Update CLI to handle new user registration
 - ✅ Fix tool calling protocol issue
 
-The MindSwarm assistant system is now production-ready across all interfaces.
+The Mind-Swarm assistant system is now production-ready across all interfaces.

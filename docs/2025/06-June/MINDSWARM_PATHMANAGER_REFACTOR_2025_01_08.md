@@ -1,8 +1,8 @@
-# MindSwarm PathManager Refactor and Context Provider Fix
+# Mind-Swarm PathManager Refactor and Context Provider Fix
 **Date: January 8, 2025**
 
 ## Overview
-Today I implemented a critical security enhancement for the MindSwarm project by refactoring the PathManager to use project-specific instances instead of a singleton pattern. This ensures that agents are strictly confined to their project directories and cannot read or write files outside their designated boundaries. Additionally, I resolved a context_provider issue in the AI loop that was preventing proper tool execution.
+Today I implemented a critical security enhancement for the Mind-Swarm project by refactoring the PathManager to use project-specific instances instead of a singleton pattern. This ensures that agents are strictly confined to their project directories and cannot read or write files outside their designated boundaries. Additionally, I resolved a context_provider issue in the AI loop that was preventing proper tool execution.
 
 ## Problem Statement
 The system was experiencing two major issues:
@@ -96,4 +96,4 @@ This mismatch needs to be resolved to ensure proper PathManager retrieval in all
 - Test frameworks need to align with production code expectations for IDs and initialization
 
 ## Impact
-This refactoring significantly improves the security posture of MindSwarm by ensuring strict project isolation at the file system level. It prevents potential security vulnerabilities where agents could access or modify files outside their designated project boundaries.
+This refactoring significantly improves the security posture of Mind-Swarm by ensuring strict project isolation at the file system level. It prevents potential security vulnerabilities where agents could access or modify files outside their designated project boundaries.

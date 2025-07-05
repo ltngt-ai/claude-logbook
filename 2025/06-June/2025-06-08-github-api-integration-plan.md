@@ -1,13 +1,13 @@
 # GitHub API Integration Plan - 2025-06-08
 
 ## Overview
-GitHub API integration will be our first major workflow feature, allowing MindSwarm agents to interact with GitHub repositories for code management, issue tracking, and collaboration.
+GitHub API integration will be our first major workflow feature, allowing Mind-Swarm agents to interact with GitHub repositories for code management, issue tracking, and collaboration.
 
 ## Strategic Value
 - Real-world workflow automation
 - Integration with developer tools
 - Foundation for more API integrations
-- Demonstrates MindSwarm's practical utility
+- Demonstrates Mind-Swarm's practical utility
 
 ## Core GitHub API Capabilities Needed
 
@@ -109,7 +109,7 @@ Task: "Update the README and API documentation in repo Z to reflect the recent c
 ## Technical Implementation Details
 
 ### Tool Architecture
-- Follow existing MindSwarm tool patterns
+- Follow existing Mind-Swarm tool patterns
 - Use PyGithub or httpx for API calls
 - Implement proper error handling and rate limiting
 - Support both organization and personal repos
@@ -129,7 +129,7 @@ Task: "Update the README and API documentation in repo Z to reflect the recent c
 ## Success Metrics
 - ✅ Agents can successfully perform basic GitHub operations
 - ✅ Complex multi-step workflows work reliably
-- ✅ Integration with existing MindSwarm features
+- ✅ Integration with existing Mind-Swarm features
 - ✅ Positive user feedback on workflow automation
 
 ## Next Steps
@@ -138,4 +138,4 @@ Task: "Update the README and API documentation in repo Z to reflect the recent c
 3. Set up test repositories for development
 4. Begin Phase 1 implementation
 
-This GitHub integration will establish MindSwarm as a practical tool for real developer workflows and serve as a template for future API integrations.
+This GitHub integration will establish Mind-Swarm as a practical tool for real developer workflows and serve as a template for future API integrations.

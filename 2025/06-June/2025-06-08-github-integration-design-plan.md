@@ -1,7 +1,7 @@
-# MindSwarm GitHub Integration Design Plan - 2025-06-08
+# Mind-Swarm GitHub Integration Design Plan - 2025-06-08
 
 ## Executive Summary
-This design outlines how MindSwarm will integrate Git and GitHub capabilities to enable version-controlled project management, automated workflows, and intelligent code maintenance.
+This design outlines how Mind-Swarm will integrate Git and GitHub capabilities to enable version-controlled project management, automated workflows, and intelligent code maintenance.
 
 ## Architecture Decision: Built-in vs Plugin
 
@@ -83,8 +83,8 @@ class GitTools:
 ### 1. Plugin Architecture
 
 ```python
-class GitHubPlugin(MindSwarmPlugin):
-    """GitHub integration plugin for MindSwarm"""
+class GitHubPlugin(Mind-SwarmPlugin):
+    """GitHub integration plugin for Mind-Swarm"""
     
     def __init__(self, config: GitHubConfig):
         self.name = "github"

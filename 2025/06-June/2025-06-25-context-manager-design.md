@@ -2,7 +2,7 @@
 Date: 2025-01-25
 
 ## Overview
-Designed a comprehensive Context Manager agent system for MindSwarm to handle intelligent context management across all agents. This replaces the simple time/entry-based system with an agent-first approach.
+Designed a comprehensive Context Manager agent system for Mind-Swarm to handle intelligent context management across all agents. This replaces the simple time/entry-based system with an agent-first approach.
 
 ## Key Design Decisions
 
@@ -66,7 +66,7 @@ Created 8 GitHub issues (#272-#279) covering:
 ## Design Rationale
 
 ### Why Agent-First?
-- Consistent with MindSwarm architecture
+- Consistent with Mind-Swarm architecture
 - Allows async operation without blocking
 - Full audit trail via mail
 - Enables future distributed operation

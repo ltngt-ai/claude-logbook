@@ -1,10 +1,10 @@
-# MindSwarm Cleanup and New Agents
+# Mind-Swarm Cleanup and New Agents
 **Date**: June 8, 2025
 
 ## Major Accomplishments Today
 
 ### 1. Created 4 New Agent Types
-Successfully added new specialized agents to MindSwarm:
+Successfully added new specialized agents to Mind-Swarm:
 - **Willy the Watcher (w)** - Monitors and reports on activities
 - **Patricia the Project Manager (p)** - Manages projects and coordinates task managers
 - **Tracey the Task Manager (t)** - Manages individual tasks and coordinates agents

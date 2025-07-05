@@ -3,7 +3,7 @@
 ## Date: 2025-06-08
 
 ### Session Summary
-Extensive debugging session to investigate why the task-level continuation protocol wasn't working fully in MindSwarm agents.
+Extensive debugging session to investigate why the task-level continuation protocol wasn't working fully in Mind-Swarm agents.
 
 ### Initial Problem
 - Agents were only completing Phase 1 of a 3-phase task

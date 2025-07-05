@@ -30,7 +30,7 @@ Replaced all `PathManager.get_instance()` calls with the new constants from `min
 
 1. **No Project-Specific Prompts Yet**: Since we have GitHub issue #308 for project-level prompt/config overrides, we simplified the prompt system to only use global constants.
 
-2. **Global Constants**: All paths now reference the MindSwarm installation directory constants rather than trying to access project-specific paths.
+2. **Global Constants**: All paths now reference the Mind-Swarm installation directory constants rather than trying to access project-specific paths.
 
 3. **Clean Break**: No backward compatibility - removed all references to the old singleton pattern.
 

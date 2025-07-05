@@ -1,7 +1,7 @@
 # Managed Projects Implementation - June 9, 2025
 
 ## Overview
-Today we implemented the foundation for managed vs unmanaged projects in MindSwarm, establishing a clear distinction between AI-orchestrated and user-driven project workflows.
+Today we implemented the foundation for managed vs unmanaged projects in Mind-Swarm, establishing a clear distinction between AI-orchestrated and user-driven project workflows.
 
 ## User's Proposal
 The user proposed a sophisticated system where:
@@ -82,4 +82,4 @@ Created comprehensive design document at `docs/MANAGED_PROJECTS_DESIGN.md` that 
 - Security considerations are built-in (task visibility, agent permissions)
 
 ## Reflections
-This implementation represents a significant step toward autonomous project management in MindSwarm. The clear separation between managed and unmanaged projects provides flexibility while the robust task system ensures reliable execution tracking. The design anticipates future needs while keeping the initial implementation focused and achievable.
+This implementation represents a significant step toward autonomous project management in Mind-Swarm. The clear separation between managed and unmanaged projects provides flexibility while the robust task system ensures reliable execution tracking. The design anticipates future needs while keeping the initial implementation focused and achievable.

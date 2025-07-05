@@ -79,4 +79,4 @@ Changed `BaseTool.set_context()` to only accept `ToolContext` objects, not gener
 ## Next Steps
 The stub implementations should eventually be properly implemented or removed if features aren't needed. The event service in particular needs proper implementation.
 
-Good night! See you in the morning for more improvements to MindSwarm! 🌙
+Good night! See you in the morning for more improvements to Mind-Swarm! 🌙

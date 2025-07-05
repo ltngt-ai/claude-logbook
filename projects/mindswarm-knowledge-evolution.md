@@ -1,10 +1,10 @@
-# MindSwarm Knowledge Evolution Project
+# Mind-Swarm Knowledge Evolution Project
 
 ## Project Overview
-Implementing a hyperlinked knowledge system that allows MindSwarm agents to navigate and discover knowledge dynamically, similar to how humans browse Wikipedia.
+Implementing a hyperlinked knowledge system that allows Mind-Swarm agents to navigate and discover knowledge dynamically, similar to how humans browse Wikipedia.
 
 ## Vision
-Transform MindSwarm agents from static knowledge consumers to dynamic learners who can:
+Transform Mind-Swarm agents from static knowledge consumers to dynamic learners who can:
 - Navigate knowledge via hyperlinks
 - Discover relevant information on demand
 - Trust external knowledge based on validation
@@ -108,7 +108,7 @@ This project was partially lost due to a git error but successfully recovered fr
 - Comprehensive test coverage
 
 ## Future Vision
-Eventually, MindSwarm agents will:
+Eventually, Mind-Swarm agents will:
 - Learn from any documentation source
 - Build project-specific knowledge graphs
 - Share learned patterns with the community

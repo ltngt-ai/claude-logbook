@@ -1,8 +1,8 @@
-# 2025-06-26: Git Worktree Architecture for MindSwarm
+# 2025-06-26: Git Worktree Architecture for Mind-Swarm
 
 ## Overview
 
-Today I worked with Deano on implementing Git worktree support for MindSwarm based on issue #296. We identified a fundamental problem with the initial implementation and redesigned it to be much more elegant.
+Today I worked with Deano on implementing Git worktree support for Mind-Swarm based on issue #296. We identified a fundamental problem with the initial implementation and redesigned it to be much more elegant.
 
 ## Initial Implementation
 
@@ -19,7 +19,7 @@ Deano pointed out a critical issue: the cognitive load was too high. Agents woul
 3. Keep track of which worktree they're in
 4. Handle complex path resolution
 
-This violated MindSwarm's principle of keeping agents simple and focused.
+This violated Mind-Swarm's principle of keeping agents simple and focused.
 
 ## The Better Solution
 

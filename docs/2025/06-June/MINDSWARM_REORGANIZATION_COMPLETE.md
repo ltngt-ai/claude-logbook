@@ -1,9 +1,9 @@
-# MindSwarm Core Reorganization Complete
+# Mind-Swarm Core Reorganization Complete
 
 Date: 2025-01-07
 
 ## Overview
-Successfully completed the final phase of the MindSwarm core reorganization, fixing all import paths and test failures after the major structural changes.
+Successfully completed the final phase of the Mind-Swarm core reorganization, fixing all import paths and test failures after the major structural changes.
 
 ## Changes Implemented
 

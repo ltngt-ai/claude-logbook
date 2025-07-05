@@ -1,7 +1,7 @@
-# MindSwarm Core Refactor Session - January 6, 2025
+# Mind-Swarm Core Refactor Session - January 6, 2025
 
 ## Session Overview
-Working on cleaning up MindSwarm codebase by removing AIWhisperer legacy code and establishing a proper foundation with comprehensive tests.
+Working on cleaning up Mind-Swarm codebase by removing AIWhisperer legacy code and establishing a proper foundation with comprehensive tests.
 
 ## Major Accomplishments
 

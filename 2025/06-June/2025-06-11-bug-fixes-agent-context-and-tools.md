@@ -1,4 +1,4 @@
-# MindSwarm Bug Fixes: Agent Context and Tool Async Methods
+# Mind-Swarm Bug Fixes: Agent Context and Tool Async Methods
 Date: 2025-06-11
 
 ## Summary

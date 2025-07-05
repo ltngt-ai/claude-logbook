@@ -45,7 +45,7 @@ Runtime Overrides
 ### Configuration Structure
 
 ```python
-class MindSwarmConfig(BaseModel):
+class Mind-SwarmConfig(BaseModel):
     environment: Environment
     server: ServerConfig
     logging: LoggingConfig

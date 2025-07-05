@@ -1,8 +1,8 @@
-# MindSwarm Runtime Migration Complete - 2024-12-27
+# Mind-Swarm Runtime Migration Complete - 2024-12-27
 
 ## Summary
 
-Successfully completed Phase 2 of the MindSwarm refactoring: migrating ALL tools from mindswarm-core-private to mindswarm-runtime and establishing test coverage.
+Successfully completed Phase 2 of the Mind-Swarm refactoring: migrating ALL tools from mindswarm-core-private to mindswarm-runtime and establishing test coverage.
 
 ## Major Accomplishments
 

@@ -19,10 +19,10 @@ import asyncio
 from pathlib import Path
 from typing import List, Optional, Dict, Any
 import git  # GitPython library
-from mindswarm.core.exceptions import MindSwarmError
+from mindswarm.core.exceptions import Mind_SwarmError
 
 class GitRepository:
-    """Manages Git operations for a MindSwarm project"""
+    """Manages Git operations for a Mind-Swarm project"""
     
     def __init__(self, project_path: Path):
         self.project_path = project_path
@@ -133,7 +133,7 @@ async def create_project_with_git(self, project_data: ProjectCreateNew) -> Proje
         
         # Create initial .gitignore
         gitignore_content = """
-# MindSwarm
+# Mind-Swarm
 .mindswarm/sessions/
 .mindswarm/logs/
 .mindswarm/tmp/
@@ -156,7 +156,7 @@ venv/
         gitignore_path.write_text(gitignore_content)
         
         # Initial commit
-        await git_repo.safe_commit("Initial commit - MindSwarm project setup")
+        await git_repo.safe_commit("Initial commit - Mind-Swarm project setup")
         
     return project
 ```
@@ -169,8 +169,8 @@ venv/
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any
 
-class MindSwarmPlugin(ABC):
-    """Base class for MindSwarm plugins"""
+class Mind-SwarmPlugin(ABC):
+    """Base class for Mind-Swarm plugins"""
     
     @property
     @abstractmethod
@@ -215,11 +215,11 @@ src/mindswarm/plugins/github/
 ### Step 3: Implement GitHub Plugin
 ```python
 # src/mindswarm/plugins/github/plugin.py
-from mindswarm.plugins.base import MindSwarmPlugin
+from mindswarm.plugins.base import Mind-SwarmPlugin
 from .tools import get_github_tools
 from .auth import GitHubAuthProvider
 
-class GitHubPlugin(MindSwarmPlugin):
+class GitHubPlugin(Mind-SwarmPlugin):
     """GitHub integration plugin"""
     
     name = "github"
@@ -409,4 +409,4 @@ async def test_issue_driven_development(project_with_git, github_plugin):
    - Automated maintenance
    - Documentation sync
 
-This implementation provides a solid foundation for Git/GitHub integration while maintaining MindSwarm's security and architectural principles.
+This implementation provides a solid foundation for Git/GitHub integration while maintaining Mind-Swarm's security and architectural principles.

@@ -1,10 +1,10 @@
-# MindSwarm Milestone Planning Session - June 9, 2025
+# Mind-Swarm Milestone Planning Session - June 9, 2025
 
 ## Major Milestones Identified
 
-The user outlined four major milestone goals for MindSwarm:
+The user outlined four major milestone goals for Mind-Swarm:
 
-1. **MindSwarm Assistant** - Natural language UI helper for project/workspace creation
+1. **Mind-Swarm Assistant** - Natural language UI helper for project/workspace creation
 2. **Task Execution Engine** - Agent-driven with sleep/wake cycles and manager communication
 3. **Project Import System** - Import existing git folders and GitHub projects
 4. **Workflow Templates** - Common development patterns automation
@@ -67,7 +67,7 @@ DORMANT → WAKING → ACTIVE → WORKING → BLOCKED/SLEEPING → DORMANT
 Added 4 new high-priority items:
 - Project Import/Creation System
 - Task Execution Engine
-- MindSwarm Assistant Agent
+- Mind-Swarm Assistant Agent
 - Workflow Templates
 
 Marked "Backend API Gap Analysis" as in_progress to begin Phase 0.

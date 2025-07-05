@@ -94,7 +94,7 @@ Three background tasks continuously:
 With Phase 1 (workspace/events), Phase 2 (project import), and now the Task Execution Engine complete, the remaining items are:
 
 1. **Task Orchestration API** - Cross-project task support
-2. **MindSwarm Assistant Agent** - Natural language UI helper
+2. **Mind-Swarm Assistant Agent** - Natural language UI helper
 3. **Workflow Templates** - Common development patterns
 4. **Legacy Cleanup** - Rename whisper→mindswarm references
 

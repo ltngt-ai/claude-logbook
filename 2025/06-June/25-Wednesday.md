@@ -3,7 +3,7 @@
 ## AI Service Provider Extension (Issue #281)
 
 ### Investigation Summary
-Investigated extending MindSwarm's AI service providers beyond OpenRouter. Key findings:
+Investigated extending Mind-Swarm's AI service providers beyond OpenRouter. Key findings:
 
 1. **Current Architecture**:
    - Single provider (OpenRouter) hardcoded in `ai_loop_factory.py`

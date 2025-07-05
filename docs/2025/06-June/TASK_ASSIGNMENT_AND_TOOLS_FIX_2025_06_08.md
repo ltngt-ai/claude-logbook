@@ -1,7 +1,7 @@
 # Task Assignment and Tools Configuration Fix - June 8, 2025
 
 ## Overview
-Fixed multiple issues in the MindSwarm task assignment system, including mailbox API mismatches, singleton pattern issues, and agent tool configuration.
+Fixed multiple issues in the Mind-Swarm task assignment system, including mailbox API mismatches, singleton pattern issues, and agent tool configuration.
 
 ## Issues Identified and Fixed
 

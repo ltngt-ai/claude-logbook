@@ -4,12 +4,12 @@ Date: 2025-06-13
 
 ## Overview
 
-Today we successfully implemented a groundbreaking architectural pattern for MindSwarm: **Domain Routing**. This elegant solution solves the fundamental problem of how agents communicate across system boundaries while maintaining agent-first principles.
+Today we successfully implemented a groundbreaking architectural pattern for Mind-Swarm: **Domain Routing**. This elegant solution solves the fundamental problem of how agents communicate across system boundaries while maintaining agent-first principles.
 
 ## The Problem
 
 UI agents were failing to send mail to frontend users because:
-- Frontend users don't have FQN addresses in the MindSwarm system
+- Frontend users don't have FQN addresses in the Mind-Swarm system
 - UI agents only knew user IDs from WebSocket connections
 - No clean way to route messages from agents to external systems
 - Previous attempts violated agent-first principles by adding special tools
@@ -100,7 +100,7 @@ We implemented comprehensive tests:
 
 ## Architectural Insights
 
-This pattern represents a fundamental design principle for MindSwarm:
+This pattern represents a fundamental design principle for Mind-Swarm:
 
 **"Boundaries are just another type of agent communication"**
 
@@ -130,4 +130,4 @@ When faced with boundary problems, the answer isn't to break our principles - it
 
 ---
 
-This implementation sets a new standard for how MindSwarm handles system boundaries. It's a perfect example of how constraints (agent-first principles) can lead to better architecture.
+This implementation sets a new standard for how Mind-Swarm handles system boundaries. It's a perfect example of how constraints (agent-first principles) can lead to better architecture.

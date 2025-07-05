@@ -10,7 +10,7 @@ While cleaning up the shared prompts system, I discovered a **CRITICAL BUG** tha
 
 ### Root Cause Analysis
 
-1. **Missing Module**: The `model_capabilities.py` module was missing from MindSwarm (it existed in AIWhisperer but wasn't migrated)
+1. **Missing Module**: The `model_capabilities.py` module was missing from Mind-Swarm (it existed in AIWhisperer but wasn't migrated)
 
 2. **Incomplete Logic**: The `PromptSystem.get_formatted_prompt()` method had special handling for `channel_system` based on model capabilities, but **NO handling for `continuation_protocol`**
 
@@ -123,7 +123,7 @@ Added comprehensive tests to prevent regression. Any future prompt system change
 
 Created **Test 003: Multi-Step Continuation Protocol Test** to verify the fix works in practice:
 
-**Location**: `/home/deano/projects/MindSwarmSimpleTasks/tests/003-multi-step-continuation/`
+**Location**: `/home/deano/projects/Mind-SwarmSimpleTasks/tests/003-multi-step-continuation/`
 
 **Test Structure**:
 ```
@@ -159,7 +159,7 @@ Created **Test 003: Multi-Step Continuation Protocol Test** to verify the fix wo
 
 **Running the Test**:
 ```bash
-cd /home/deano/projects/MindSwarmSimpleTasks
+cd /home/deano/projects/Mind-SwarmSimpleTasks
 ./tests/003-multi-step-continuation/test.sh
 ```
 

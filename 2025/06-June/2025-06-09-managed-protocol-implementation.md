@@ -4,13 +4,13 @@
 
 ## Overview
 
-Today I completed the implementation of a managed agent communication protocol for MindSwarm. This protocol enables structured communication between Project Managers (PM), Task Managers (TM), and Worker agents while leveraging the existing mailbox infrastructure.
+Today I completed the implementation of a managed agent communication protocol for Mind-Swarm. This protocol enables structured communication between Project Managers (PM), Task Managers (TM), and Worker agents while leveraging the existing mailbox infrastructure.
 
 ## Key Design Decision: Build on Existing Infrastructure
 
 Rather than creating a parallel communication channel, I made the strategic decision to build the protocol on top of the existing mailbox system. This decision was based on several observations:
 
-1. **Agents already understand mailboxes** - Every agent in MindSwarm knows how to send and receive mailbox messages
+1. **Agents already understand mailboxes** - Every agent in Mind-Swarm knows how to send and receive mailbox messages
 2. **No new learning curve** - Agents can adopt the protocol without learning a completely new system
 3. **Infrastructure reuse** - We avoid duplicating functionality and increasing system complexity
 4. **Natural integration** - The protocol fits seamlessly into existing agent message loops
@@ -167,6 +167,6 @@ The protocol is now ready for use. Potential enhancements include:
 
 ## Conclusion
 
-This implementation successfully adds structured communication to MindSwarm without disrupting existing patterns. By building on the mailbox system, we've created a protocol that feels natural to agents while providing the structure needed for complex multi-agent coordination.
+This implementation successfully adds structured communication to Mind-Swarm without disrupting existing patterns. By building on the mailbox system, we've created a protocol that feels natural to agents while providing the structure needed for complex multi-agent coordination.
 
 The key insight was recognizing that we didn't need new infrastructure - we needed better structure for what we already had. The mailbox system, enhanced with this protocol layer, now serves both human-readable communication and machine-processable coordination equally well.

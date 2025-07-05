@@ -149,7 +149,7 @@ With the completion of the Task Orchestration API:
 - Pre-built templates
 
 ### Remaining Tasks
-1. **MindSwarm Assistant Agent** - Natural language UI helper
+1. **Mind-Swarm Assistant Agent** - Natural language UI helper
 2. **Additional Workflow Templates** - More common development patterns
 3. **Legacy Cleanup** - Rename whisper→mindswarm references
 4. **Performance Optimization** - Caching, connection pooling

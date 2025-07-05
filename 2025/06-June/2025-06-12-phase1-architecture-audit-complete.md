@@ -9,7 +9,7 @@ Completed a systematic audit of the mindswarm-core-private codebase to identify 
 ### Audit Results
 - **Total Violations Found**: 10 major architectural violations
 - **Pattern Identified**: Systematic bypassing of agent intelligence with direct operations, fixed workflows, and legacy code
-- **Core Issue**: While MindSwarm has good agent infrastructure, much of the system still operates in traditional CRUD patterns that bypass agent intelligence entirely
+- **Core Issue**: While Mind-Swarm has good agent infrastructure, much of the system still operates in traditional CRUD patterns that bypass agent intelligence entirely
 
 ### GitHub Issues Created
 

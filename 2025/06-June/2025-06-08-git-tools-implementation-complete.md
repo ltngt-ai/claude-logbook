@@ -3,7 +3,7 @@
 ## Date: 2025-06-08
 
 ### Summary
-Completed rapid implementation of core Git tools for MindSwarm as part of the feature/git-integration branch. All essential Git operations are now available as async-friendly tools following MindSwarm patterns.
+Completed rapid implementation of core Git tools for Mind-Swarm as part of the feature/git-integration branch. All essential Git operations are now available as async-friendly tools following Mind-Swarm patterns.
 
 ### Implemented Tools
 
@@ -54,7 +54,7 @@ Completed rapid implementation of core Git tools for MindSwarm as part of the fe
 
 ### Design Patterns Used
 
-All tools follow consistent MindSwarm patterns:
+All tools follow consistent Mind-Swarm patterns:
 - Inherit from Tool base class
 - Use ToolSchema for parameter validation
 - Async execution with proper error handling
@@ -86,4 +86,4 @@ All tools follow consistent MindSwarm patterns:
 - Agent context automatically included where relevant
 - Results include both success/error status and detailed operation info
 
-The implementation provides a solid foundation for version control integration in MindSwarm, enabling agents to safely work with Git repositories while maintaining proper isolation and tracking.
+The implementation provides a solid foundation for version control integration in Mind-Swarm, enabling agents to safely work with Git repositories while maintaining proper isolation and tracking.

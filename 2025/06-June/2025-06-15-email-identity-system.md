@@ -56,7 +56,7 @@ Implemented a major architectural improvement: email-based identity system for a
 ──────────────────────────────────────────────────
 # UI Agent
 
-I am the UI Agent, the intelligent interface between users and the MindSwarm agent ecosystem.
+I am the UI Agent, the intelligent interface between users and the Mind-Swarm agent ecosystem.
 
 ## My User Identity
 I am specifically serving user: web-user-1749979052776-wfro3w@external.local.mindswarm.ltngt.ai

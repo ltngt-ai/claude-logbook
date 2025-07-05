@@ -62,7 +62,7 @@ Worker Agents
    name: "Project Manager"
    model: "gpt-4o"  # Strong model for strategic decisions
    system_prompt: |
-     You are a Project Manager agent for a MindSwarm managed project.
+     You are a Project Manager agent for a Mind-Swarm managed project.
      
      Your responsibilities:
      - Monitor project goals and GitHub issues

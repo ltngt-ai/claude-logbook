@@ -1,7 +1,7 @@
 # Git Tools Async Refactor Complete - 2025-06-09
 
 ## Summary
-Successfully completed major refactoring of all MindSwarm tools to use a standardized async architecture. This work provides the foundation for the GitHub integration features to come.
+Successfully completed major refactoring of all Mind-Swarm tools to use a standardized async architecture. This work provides the foundation for the GitHub integration features to come.
 
 ## Key Architectural Change
 Implemented the user's suggestion to have BaseTool provide the `execute()` method that handles sync/async bridging, while tools only need to implement `execute_async()`. This:
@@ -38,7 +38,7 @@ Added missing methods needed by Git tools:
 
 ### Tool Updates
 - Updated all 10 Git tools to use new pattern
-- Updated all other MindSwarm tools to implement execute_async()
+- Updated all other Mind-Swarm tools to implement execute_async()
 - Fixed logger initialization across all tools
 - Removed redundant execute() methods
 

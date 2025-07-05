@@ -103,14 +103,14 @@ Successfully completed the Git worktree support implementation with relative pat
 
 ## Architecture Insights
 
-The worktree implementation reinforces MindSwarm's core principle: **agents control their context through tools, not direct API calls**. By making path resolution context-aware and relative-only, we've:
+The worktree implementation reinforces Mind-Swarm's core principle: **agents control their context through tools, not direct API calls**. By making path resolution context-aware and relative-only, we've:
 
 1. **Reduced cognitive load**: Agents think in relative paths always
 2. **Enabled transparent isolation**: Worktrees "just work" without agent awareness
 3. **Maintained clean architecture**: No special cases or worktree-specific code paths
 4. **Preserved agent autonomy**: Managers decide isolation, workers operate normally
 
-This implementation serves as a model for future context-aware features in the MindSwarm platform.
+This implementation serves as a model for future context-aware features in the Mind-Swarm platform.
 
 ---
 

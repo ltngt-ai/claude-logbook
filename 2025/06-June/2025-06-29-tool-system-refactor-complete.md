@@ -2,7 +2,7 @@
 
 ## Epic Achievement: From Class Inheritance to Clean YAML Architecture!
 
-Successfully completed a massive refactoring of the MindSwarm tool system, transforming it from complex class inheritance to a clean, YAML-driven architecture with hot reload support and strict validation!
+Successfully completed a massive refactoring of the Mind-Swarm tool system, transforming it from complex class inheritance to a clean, YAML-driven architecture with hot reload support and strict validation!
 
 ## The Journey
 
@@ -158,7 +158,7 @@ Created `mindswarm-runtime/tools/schema.yaml`:
 
 ## Reflection
 
-This refactoring represents a fundamental improvement to MindSwarm's architecture. By moving from complex inheritance to simple data + functions, we've made the system more maintainable, testable, and extensible.
+This refactoring represents a fundamental improvement to Mind-Swarm's architecture. By moving from complex inheritance to simple data + functions, we've made the system more maintainable, testable, and extensible.
 
 The journey from "I keep telling you, you can't debug for some reason" to a working system with hot reload and proper validation shows the value of systematic refactoring and clean architecture.
 

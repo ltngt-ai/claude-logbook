@@ -156,6 +156,6 @@ async def stop_agent(self, agent_identifier: str):
 ## Next Steps
 
 1. Implement Phase 1 (terminate fix) immediately
-2. Test with MindSwarmSimpleTasks framework
+2. Test with Mind-SwarmSimpleTasks framework
 3. Plan Phase 2 implementation based on test results
 4. Consider full FQN system integration for future

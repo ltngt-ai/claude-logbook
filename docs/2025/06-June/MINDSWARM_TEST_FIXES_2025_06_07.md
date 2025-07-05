@@ -1,4 +1,4 @@
-# MindSwarm Test Fixes - June 7, 2025
+# Mind-Swarm Test Fixes - June 7, 2025
 
 ## Context
 Continued from previous session where we were fixing unit test failures after a major refactoring that changed tool parameter definitions from "parameters" to "parameters_schema" for OpenAI/OpenRouter API compatibility.

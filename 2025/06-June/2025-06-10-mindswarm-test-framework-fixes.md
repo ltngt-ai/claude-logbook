@@ -1,8 +1,8 @@
-# 2025-06-10: MindSwarm Test Framework Fixes
+# 2025-06-10: Mind-Swarm Test Framework Fixes
 
 ## Issues Identified
 
-Running the MindSwarmSimpleTasks test suite revealed several critical issues with the new agent-first architecture:
+Running the Mind-SwarmSimpleTasks test suite revealed several critical issues with the new agent-first architecture:
 
 ### 1. Project Creation Without PathManager
 - **Issue**: Projects are created successfully but error with "Project not found or has no PathManager"

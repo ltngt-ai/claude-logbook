@@ -3,7 +3,7 @@
 Date: 2025-06-07
 
 ## Summary
-Successfully implemented the MindSwarm agent template/instance pattern, allowing dynamic creation of agent instances from templates. This represents a major architectural shift from the static agent model to a flexible, scalable multi-agent system.
+Successfully implemented the Mind-Swarm agent template/instance pattern, allowing dynamic creation of agent instances from templates. This represents a major architectural shift from the static agent model to a flexible, scalable multi-agent system.
 
 ## Key Changes
 
@@ -18,7 +18,7 @@ Successfully implemented the MindSwarm agent template/instance pattern, allowing
 - Improved error messages to guide users
 
 ### 3. Server Updates
-- Removed demo mode - server now uses real MindSwarm functionality
+- Removed demo mode - server now uses real Mind-Swarm functionality
 - Fixed API key loading from .env file with multiple path searches
 - Added comprehensive logging for debugging
 
@@ -101,4 +101,4 @@ agents:
 3. Dynamic systems need flexible validation (mailbox accepting any name)
 4. Clear error messages are crucial for debugging
 
-This implementation provides a solid foundation for the MindSwarm multi-agent system, allowing unlimited agent instances to be created dynamically from templates.
+This implementation provides a solid foundation for the Mind-Swarm multi-agent system, allowing unlimited agent instances to be created dynamically from templates.

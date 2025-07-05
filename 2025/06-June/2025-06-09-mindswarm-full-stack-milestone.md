@@ -1,9 +1,9 @@
-# MindSwarm Full Stack Milestone Achieved! 
+# Mind-Swarm Full Stack Milestone Achieved! 
 Date: 2025-06-09
 
 ## 🎉 Major Milestone: First Full Front/Backend Version
 
-We now have a complete working version of MindSwarm with full frontend/backend integration!
+We now have a complete working version of Mind-Swarm with full frontend/backend integration!
 
 ## Architecture Hierarchy Implemented
 ```

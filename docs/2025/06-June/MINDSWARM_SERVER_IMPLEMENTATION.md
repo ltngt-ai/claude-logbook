@@ -1,9 +1,9 @@
-# MindSwarm Server Implementation - Pain Points and Gaps
+# Mind-Swarm Server Implementation - Pain Points and Gaps
 
 ## Date: 2025-06-07
 
 ### Overview
-Working on getting the MindSwarm server (main.py) running with the actual implementations. This document tracks the pain points and gaps discovered during implementation.
+Working on getting the Mind-Swarm server (main.py) running with the actual implementations. This document tracks the pain points and gaps discovered during implementation.
 
 ### Update: Server is Running! 🎉
 

@@ -1,7 +1,7 @@
-# MindSwarm Migration Complete - Summary
+# Mind-Swarm Migration Complete - Summary
 
 ## Overview
-Successfully migrated from AIWhisperer monorepo to MindSwarm multi-repo architecture under the @ltngt-ai organization.
+Successfully migrated from AIWhisperer monorepo to Mind-Swarm multi-repo architecture under the @ltngt-ai organization.
 
 ## Repositories Created
 

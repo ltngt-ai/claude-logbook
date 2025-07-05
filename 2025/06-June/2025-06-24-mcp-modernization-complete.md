@@ -2,7 +2,7 @@
 
 ## Summary
 
-Today marked the successful completion of MindSwarm's MCP (Model Context Protocol) modernization project. This was a comprehensive refactoring effort that migrated the entire codebase from the deprecated @modelcontextprotocol/sdk to the new @anthropic/mcp SDK, while also implementing significant architectural improvements to align with MindSwarm's agent-first principles.
+Today marked the successful completion of Mind-Swarm's MCP (Model Context Protocol) modernization project. This was a comprehensive refactoring effort that migrated the entire codebase from the deprecated @modelcontextprotocol/sdk to the new @anthropic/mcp SDK, while also implementing significant architectural improvements to align with Mind-Swarm's agent-first principles.
 
 ## Key Architectural Decisions
 
@@ -12,28 +12,28 @@ The most significant architectural decision was adopting a "brain/body" model fo
 
 - **Brain (Agent)**: The AI agent with its loop, context, and decision-making capabilities
 - **Body (MCP Server)**: The tool implementation that provides capabilities to the agent
-- **Proxy Agent Pattern**: A lightweight agent that acts as a bridge between the MindSwarm system and MCP servers
+- **Proxy Agent Pattern**: A lightweight agent that acts as a bridge between the Mind-Swarm system and MCP servers
 
 This model elegantly solved several challenges:
 - Maintained agent-first principles while integrating external tools
 - Enabled proper message routing through the mailbox system
 - Preserved the integrity of agent loops and context management
-- Allowed MCP tools to be exposed as native MindSwarm tools
+- Allowed MCP tools to be exposed as native Mind-Swarm tools
 
 ### 2. Proxy Agent Implementation
 
 Created a new `McpProxyAgent` that:
 - Connects to MCP servers via stdio transport
-- Exposes MCP tools as MindSwarm tools with proper schema conversion
-- Routes messages between MindSwarm agents and MCP servers
+- Exposes MCP tools as Mind-Swarm tools with proper schema conversion
+- Routes messages between Mind-Swarm agents and MCP servers
 - Maintains minimal state, acting as a pure conduit
 
 ### 3. Schema Translation Layer
 
 Implemented comprehensive schema translation between:
-- MCP's JSON Schema format → MindSwarm's tool parameter format
+- MCP's JSON Schema format → Mind-Swarm's tool parameter format
 - Handled edge cases like additionalProperties, required fields, and nested objects
-- Preserved full fidelity of tool definitions while adapting to MindSwarm's expectations
+- Preserved full fidelity of tool definitions while adapting to Mind-Swarm's expectations
 
 ## Technical Challenges Overcome
 
@@ -60,28 +60,28 @@ Achieved 100% test pass rate after systematic fixes.
 ### 3. Tool Registration Pipeline
 
 The tool registration flow required careful attention:
-- MCP tools needed to be discoverable by MindSwarm agents
+- MCP tools needed to be discoverable by Mind-Swarm agents
 - Schema conversion had to handle all JSON Schema features
 - Tool namespacing prevented conflicts between different MCP servers
 - Error propagation needed to be transparent
 
 ### 4. Message Routing Architecture
 
-Integrating MCP's request/response model with MindSwarm's mailbox system:
+Integrating MCP's request/response model with Mind-Swarm's mailbox system:
 - Created correlation tracking for async responses
 - Implemented proper error propagation through mail
 - Maintained agent context across tool invocations
-- Preserved the asynchronous, event-driven nature of MindSwarm
+- Preserved the asynchronous, event-driven nature of Mind-Swarm
 
 ## Insights Gained
 
 ### 1. Agent-First Principles Are Robust
 
-The brain/body model proved that MindSwarm's agent-first architecture is flexible enough to integrate external systems without compromising core principles. By treating MCP servers as "bodies" for agents, we maintained the conceptual integrity of the system.
+The brain/body model proved that Mind-Swarm's agent-first architecture is flexible enough to integrate external systems without compromising core principles. By treating MCP servers as "bodies" for agents, we maintained the conceptual integrity of the system.
 
 ### 2. Schema Translation Is Non-Trivial
 
-The differences between MCP's JSON Schema and MindSwarm's tool format revealed the importance of robust schema translation. Edge cases like `additionalProperties: false` and complex nested structures required careful handling.
+The differences between MCP's JSON Schema and Mind-Swarm's tool format revealed the importance of robust schema translation. Edge cases like `additionalProperties: false` and complex nested structures required careful handling.
 
 ### 3. Proxy Pattern Has Broad Applications
 
@@ -116,8 +116,8 @@ Without TDD, these issues would have been much harder to identify and fix.
 - Add security controls for MCP server access
 
 ### 3. Expand MCP Ecosystem
-- Create MindSwarm-specific MCP servers for common tasks
-- Document how to build MCP servers for MindSwarm
+- Create Mind-Swarm-specific MCP servers for common tasks
+- Document how to build MCP servers for Mind-Swarm
 - Build adapters for popular external services
 - Create a marketplace for MCP integrations
 
@@ -137,7 +137,7 @@ Without TDD, these issues would have been much harder to identify and fix.
 
 This modernization project reinforced several key principles:
 
-1. **Architecture Matters**: The brain/body model emerged naturally from MindSwarm's agent-first principles, showing that good architecture guides good solutions.
+1. **Architecture Matters**: The brain/body model emerged naturally from Mind-Swarm's agent-first principles, showing that good architecture guides good solutions.
 
 2. **Incremental Progress**: Breaking the migration into phases (SDK update, linting, tests, features) made a complex task manageable.
 
@@ -145,7 +145,7 @@ This modernization project reinforced several key principles:
 
 4. **Flexibility Through Abstraction**: The proxy agent pattern provides a template for future integrations while maintaining system integrity.
 
-The MCP modernization positions MindSwarm to leverage a growing ecosystem of AI tools while maintaining its unique agent-first architecture. This balance between pragmatism and principles will be crucial as the platform evolves.
+The MCP modernization positions Mind-Swarm to leverage a growing ecosystem of AI tools while maintaining its unique agent-first architecture. This balance between pragmatism and principles will be crucial as the platform evolves.
 
 ## Technical Details
 
@@ -157,4 +157,4 @@ For reference, the key components modified:
 - Configuration updates for new SDK
 - Documentation updates throughout
 
-All changes follow MindSwarm's coding standards and have been thoroughly tested.
+All changes follow Mind-Swarm's coding standards and have been thoroughly tested.
